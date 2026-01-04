@@ -1,0 +1,106 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "cli": {
+    "packageManager": "npm",
+    "analytics": "ca64d488-54ee-4a49-8666-255f685bac56"
+  },
+  "newProjectRoot": "projects",
+  "projects": {
+    "portfolio": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
+      "root": "",
+      "sourceRoot": "src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular/build:application",
+          "options": {
+            "browser": "src/main.ts",
+            "tsConfig": "tsconfig.app.json",
+            "inlineStyleLanguage": "scss",
+            "assets": [
+              {
+                "glob": "**/*",
+                "input": "public"
+              },
+              "src/assets"
+            ],
+            "styles": [
+    "src/styles.scss",
+    "src/assets/css/bootstrap.min.css",
+    "src/assets/css/magnific-popup.css",
+    "src/assets/css/owl.carousel.min.css",
+    "src/assets/css/all.min.css",
+    "src/assets/css/mobirise/style.css",
+    "src/assets/css/aos.css",
+    "src/assets/css/mono.css",
+    "src/assets/css/responsive.css",
+    "src/assets/css/dark.theme.css"
+  ],
+  "scripts": [
+    "src/assets/js/jquery.js",
+    "src/assets/js/popper.min.js",
+    "src/assets/js/bootstrap.min.js",
+    "src/assets/js/jquery.easing.min.js",
+    "src/assets/js/jquery.appear.min.js",
+    "src/assets/js/jquery.countTo.js",
+    "src/assets/js/scrollspy.js",
+    "src/assets/js/jquery.magnific-popup.min.js",
+    "src/assets/js/owl.carousel.min.js",
+    "src/assets/js/aos.js",
+    "src/assets/js/typed.min.js",
+    "src/assets/js/particles.min.js",
+    "src/assets/js/alert.js",
+    "src/assets/js/contact.js",
+    "src/assets/js/custom.js"
+  ]
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kB",
+                  "maximumError": "1MB"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "4kB",
+                  "maximumError": "8kB"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "development": {
+              "optimization": false,
+              "extractLicenses": false,
+              "sourceMap": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular/build:dev-server",
+          "configurations": {
+            "production": {
+              "buildTarget": "portfolio:build:production"
+            },
+            "development": {
+              "buildTarget": "portfolio:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "test": {
+          "builder": "@angular/build:unit-test"
+        }
+      }
+    }
+  }
+}
