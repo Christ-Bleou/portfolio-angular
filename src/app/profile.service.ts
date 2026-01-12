@@ -5,33 +5,38 @@ export interface UserConfig {
   firstName: string;
   lastName: string;
   jobTitle: string;
-  email: string;   
-  phone: string;   
-  aboutMe: string; 
-  address: string;     
-  expYears: string;    
+  email: string;
+  phone: string;
+  address: string;
+  aboutMe?: string;
+  
+  // Stats
+  expYears: string;
   happyClients: string;
   projectsDone: string;
   downloads: string;
-  socialLinkedin: string; 
-  socialGithub: string;      
+
+  // Socials
+  socialLinkedin: string;
+  socialGithub: string;
+  socialFacebook: string;  // Nouveau
+  socialPinterest: string; // Nouveau
+  socialTwitter: string;   // Nouveau
+
+  // Photo
+  photoPath: string;       // Nouveau
 }
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProfileService {
-  // On utilise un Signal (nouveauté Angular 17) pour stocker la config
   config = signal<UserConfig | null>(null);
 
   constructor(private http: HttpClient) {
-    this.chargerConfig();
-  }
-
-  private chargerConfig() {
     this.http.get<UserConfig>('assets/data/config.json').subscribe({
       next: (data) => this.config.set(data),
-      error: () => console.log("⚠️ Pense à lancer 'node setup.js' pour configurer ton nom !")
+      error: () => console.log("⚠️ Lance 'node setup.js' !")
     });
   }
 }

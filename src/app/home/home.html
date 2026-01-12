@@ -3,8 +3,21 @@
 
 <section id="home" class="hero-style" *ngIf="profileService.config() as info">
   <div class="container">
-    <h1>Bonjour, je suis <span>{{ info.firstName }} {{ info.lastName }}</span></h1>
-    <p>{{ info.jobTitle }}</p>
+    <div class="row justify-content-center">
+      <div class="col-md-12 text-center">
+
+        <div class="profile-img-container mb-4" *ngIf="info.photoPath">
+          <img [src]="info.photoPath" 
+               alt="Photo de profil" 
+               class="img-fluid"
+               style="width: 220px; height: 220px; object-fit: cover; border-radius: 50%; border: 6px solid rgba(255,255,255,0.2); box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+        </div>
+
+        <h1>Bonjour, je suis <span class="accent">{{ info.firstName }} {{ info.lastName }}</span></h1>
+        <p class="mt-3">{{ info.jobTitle }}</p>
+
+      </div>
+    </div>
   </div>
 </section>
 
