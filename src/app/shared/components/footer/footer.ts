@@ -1,11 +1,17 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { ProfileService } from '../../../profile.service';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-footer',
-  imports: [],
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './footer.html',
-  styleUrl: './footer.scss',
 })
 export class Footer {
+  // 1. Récupère l'année actuelle automatiquement
+  currentYear = new Date().getFullYear();
 
+  // 2. On injecte le service pour avoir accès aux réseaux sociaux (voir suite)
+  profileService = inject(ProfileService);
 }

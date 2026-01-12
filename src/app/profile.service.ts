@@ -5,6 +5,16 @@ export interface UserConfig {
   firstName: string;
   lastName: string;
   jobTitle: string;
+  email: string;   
+  phone: string;   
+  aboutMe: string; 
+  address: string;     
+  expYears: string;    
+  happyClients: string;
+  projectsDone: string;
+  downloads: string;
+  socialLinkedin: string; 
+  socialGithub: string;      
 }
 
 @Injectable({

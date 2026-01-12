@@ -1,11 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { ProfileService } from '../../../profile.service';
 
 @Component({
   selector: 'app-contact',
-  imports: [],
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './contact.html',
-  styleUrl: './contact.scss',
 })
 export class Contact {
-
+  profileService = inject(ProfileService);
 }

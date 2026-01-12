@@ -1,7 +1,7 @@
 <app-preloader/>
 <app-header/>
 
-<section id="hero" class="hero-style" *ngIf="profileService.config() as info">
+<section id="home" class="hero-style" *ngIf="profileService.config() as info">
   <div class="container">
     <h1>Bonjour, je suis <span>{{ info.firstName }} {{ info.lastName }}</span></h1>
     <p>{{ info.jobTitle }}</p>
