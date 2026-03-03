@@ -1,0 +1,19 @@
+{
+    "firstName": "Jean",
+    "lastName": "Dupont",
+    "jobTitle": "Développeur Full Stack",
+    "email": "contact@example.com",
+    "phone": "+33 6 XX XX XX XX",
+    "address": "Paris, France",
+    "aboutMe": "Développeur passionné par les technologies web modernes et réactives",
+    "expYears": "5",
+    "happyClients": "50",
+    "projectsDone": "25",
+    "downloads": "10000",
+    "socialLinkedin": "https://linkedin.com/in/example",
+    "socialGithub": "https://github.com/example",
+    "socialFacebook": "https://facebook.com/example",
+    "socialPinterest": "https://pinterest.com/example",
+    "socialTwitter": "https://twitter.com/example",
+    "photoPath": null
+}

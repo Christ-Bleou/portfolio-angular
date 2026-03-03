@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*---------------------------------------------------------------------------------------
 * Template Name      :  RectCV - Personal Bootstrap 4 HTML Template                      |
 * Author             :  Narek Sukiasyan                                                  |
@@ -33,6 +34,43 @@ Table of Content
 ******************/
 /*=================
     1. SETTINGS
+=======
+/*---------------------------------------------------------------------------------------
+* Template Name      :  RectCV - Personal Bootstrap 4 HTML Template                      |
+* Author             :  Narek Sukiasyan                                                  |
+* Version            :  1.1.0                                                            |
+* Created            :  April 2020                                                       |
+* Updated            :  February 2021                                                    |
+* File Description   :  Color Scheme css file of the template                            |
+*----------------------------------------------------------------------------------------
+*/
+/******************
+Table of Content
+
+    1. SETTINGS
+        1.1 Preloader
+        1.2 Bootstrap Settings
+        1.3 Buttons
+    2. HELPERS
+        2.1 OWL Slider
+    3. HEADER
+        3.1 General Header Style
+        3.2 Horizontal Header Style
+    4. HOME SECTION
+    5. ABOUT SECTION
+    6. SERVICE SECTION
+    7. RESUME SECTION
+    8. BLOG SECTION
+    9. CONTACT SECTION
+    10. FACTS SECTION
+    11. VIDEO SECTION
+    12. TESTIMONIAL SECTION
+        
+
+******************/
+/*=================
+    1. SETTINGS
+>>>>>>> feature/cli-photo-update
 ==================*/
 a:hover {
   color: #e54144;
@@ -213,8 +251,13 @@ mark {
   background: rgba(255, 33, 56, 0.8);
 }
 
+<<<<<<< HEAD
 /*=================
     2. HELPERS
+=======
+/*=================
+    2. HELPERS
+>>>>>>> feature/cli-photo-update
 ==================*/
 section .section-title h2.rect_heading:before {
   background-color: #e54144;
@@ -237,8 +280,13 @@ section .section-title h2.rect_heading:before {
   background-color: #e54144;
 }
 
+<<<<<<< HEAD
 /*=================
     3. HEADER
+=======
+/*=================
+    3. HEADER
+>>>>>>> feature/cli-photo-update
 ==================*/
 /* 3.1 General Header Style */
 header .site-logo a span {
@@ -254,8 +302,13 @@ ul li a.active {
   color: #e54144;
 }
 
+<<<<<<< HEAD
 /*====================
     4. HOME SECTION
+=======
+/*====================
+    4. HOME SECTION
+>>>>>>> feature/cli-photo-update
 =====================*/
 section.home h1:before {
   background-color: #e54144;
@@ -265,22 +318,37 @@ h1 span {
   color: #e54144;
 }
 
+<<<<<<< HEAD
 /*====================
     5. ABOUT SECTION
+=======
+/*====================
+    5. ABOUT SECTION
+>>>>>>> feature/cli-photo-update
 =====================*/
 section.about .about-info i {
   color: #e54144;
 }
 
+<<<<<<< HEAD
 /*=======================
     6. SERVICE SECTION
+=======
+/*=======================
+    6. SERVICE SECTION
+>>>>>>> feature/cli-photo-update
 ========================*/
 .service-single .service-icon {
   color: #e54144;
 }
 
+<<<<<<< HEAD
 /*=======================
     7. RESUME SECTION
+=======
+/*=======================
+    7. RESUME SECTION
+>>>>>>> feature/cli-photo-update
 ========================*/
 .resume-list h4 {
   color: #e54144;
@@ -290,8 +358,13 @@ section.about .about-info i {
   background-color: #e54144;
 }
 
+<<<<<<< HEAD
 /*=======================
     8. BLOG SECTION
+=======
+/*=======================
+    8. BLOG SECTION
+>>>>>>> feature/cli-photo-update
 ========================*/
 .news-item .news-content .news-title .blog-permalink:hover h3 {
   color: #e54144;
@@ -301,29 +374,49 @@ section.about .about-info i {
   color: #e54144;
 }
 
+<<<<<<< HEAD
 /*=======================
     9. CONTACT SECTION
+=======
+/*=======================
+    9. CONTACT SECTION
+>>>>>>> feature/cli-photo-update
 ========================*/
 .contact-icon {
   color: #e54144;
 }
 
+<<<<<<< HEAD
 /*==========================
     10. FACTS SECTION
+=======
+/*==========================
+    10. FACTS SECTION
+>>>>>>> feature/cli-photo-update
 ===========================*/
 section.facts .fact-single .fact-icon, div.section.facts .fact-single .fact-icon {
   color: #e54144;
 }
 
+<<<<<<< HEAD
 /*==========================
     11. VIDEO SECTION
+=======
+/*==========================
+    11. VIDEO SECTION
+>>>>>>> feature/cli-photo-update
 ===========================*/
 .btn-video-play {
   color: #e54144;
 }
 
+<<<<<<< HEAD
 /*==========================
     12. TESTIMONIAL SECTION
+=======
+/*==========================
+    12. TESTIMONIAL SECTION
+>>>>>>> feature/cli-photo-update
 ===========================*/
 .testimonial-box .testimonial_icon {
   color: #e54144;

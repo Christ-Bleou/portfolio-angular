@@ -14,7 +14,7 @@
       </div>
     </div>
 
-    <div class="section-content flex-grow-1">
+    <div class="section-content flex-grow-1" *ngIf="profileService.config() as info">
       <div class="row">
         <div class="col-sm-4">
           <div class="d-flex flex-row flex-sm-column flex-md-row justify-content-md-center mb-3 text-left text-sm-center text-md-left">
@@ -22,30 +22,34 @@
               <span class="mbri-letter"></span>
             </div>
             <div class="contact-details mt-2">
-              <h5>Email Us</h5>
-              <p><a href="mailto:kevinmiller@alb.com">kevinmiller@alb.com</a></p>
+              <h5>Email</h5>
+              <p><a [href]="'mailto:' + info.email">{{ info.email }}</a></p>
             </div>
           </div>
         </div>
+
+
         <div class="col-sm-4">
           <div class="d-flex flex-row flex-sm-column flex-md-row justify-content-md-center mb-3 text-left text-sm-center text-md-left">
             <div class="contact-icon mr-md-3 mr-3 mr-sm-0">
               <span class="mbri-mobile"></span>
             </div>
             <div class="contact-details mt-2">
-              <h5>Call</h5>
-              <p><a href="tel:+1000123456789">+1 xxx-888-7887</a></p>
+              <h5>Adresse</h5>
+              <p>{{ info.address }}</p>
             </div>
           </div>
         </div>
+        
+        
         <div class="col-sm-4">
           <div class="d-flex flex-row flex-sm-column flex-md-row justify-content-md-center mb-3 text-left text-sm-center text-md-left">
             <div class="contact-icon mr-md-3 mr-3 mr-sm-0">
-              <span class="mbri-map-pin"></span>
+              <span class="mbri-mobile2"></span>
             </div>
             <div class="contact-details mt-2">
-              <h5>Visit</h5>
-              <p>New York, USA</p>
+              <h5>Téléphone</h5>
+              <p><a [href]="'tel:' + info.phone">{{ info.phone }}</a></p>
             </div>
           </div>
         </div>
@@ -62,6 +66,8 @@
                   <label>Full Name</label>
                 </div>
               </div>
+
+
               <div class="col-lg-6 mt-3">
                 <div class="form-group">
                   <input type="email" name="email" id="email" class="form-control" autocomplete="off" required>
@@ -74,12 +80,16 @@
                   <label>Subject</label>
                 </div>
               </div>
+
+
               <div class="col-lg-12 mt-3">
                 <div class="form-group">
                   <textarea name="text" id="text"  rows="6" class="form-control" required></textarea>
                   <label>Message</label>
                 </div>
               </div>
+
+
               <div class="col-lg-12 mt-3">
                 <div class="form-group mb-0 text-right">
                   <button type="submit" id="contact-btn" class="btn btn-outline-primary btn-bg">

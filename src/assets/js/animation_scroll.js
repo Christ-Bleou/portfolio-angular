@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $(function(){
 
 //Counter
@@ -20,4 +21,28 @@ $('.progress-bar').each(function(){
     });
 })
 
+=======
+$(function(){
+
+//Counter
+
+$('.tmcounter').each(function(){
+    $(this).appear(function(){
+        $(this).countTo();
+    })
+});
+
+//Progress Bar
+
+$('.progress-bar').each(function(){
+    $(this).appear(function(){
+
+        $(this).css({
+            width: $(this).data('percent') + "%"
+        })
+
+    });
+})
+
+>>>>>>> feature/cli-photo-update
 });

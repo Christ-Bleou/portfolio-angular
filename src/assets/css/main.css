@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*---------------------------------------------------------------------------------------
 * Template Name      :  RectCV - Personal Bootstrap 4 HTML Template                      |
 * Author             :  Narek Sukiasyan                                                  |
@@ -36,6 +37,46 @@ Table of Content
     11. CONTACT SECTION
     12. FACTS SECTION
 
+=======
+/*---------------------------------------------------------------------------------------
+* Template Name      :  RectCV - Personal Bootstrap 4 HTML Template                      |
+* Author             :  Narek Sukiasyan                                                  |
+* Version            :  1.1.0                                                            |
+* Created            :  April 2020                                                       |
+* Updated            :  February 2021                                                    |
+* File Description   :  Main css file of the template                                    |
+*----------------------------------------------------------------------------------------
+*/
+/******************
+Table of Content
+
+    1. SETTINGS
+        1.1 Preloader
+    2. HELPER
+        2.1 Custom Alert
+        2.2 Buttons
+        2.3 SOCIAL ICONS
+        2.4 OWL SLIDER
+        2.5 RETURN TOP BUTTON
+    3. HEADER
+        3.1 General Header Style
+        3.2 Horizontal Header Style
+        3.3 Mobile Toggler Button
+    4. HOME SECTION
+        4.1 Parallax Element Positions
+        4.2 Background Animation Keyframe
+        4.3 Introduction Area
+        4.4 Scroll Down Button
+    5. ABOUT SECTION
+    6. SERVICE SECTION
+    7. PORTFOLIO SECTION
+    8. RESUME SECTION
+    9. TESTIMONIAL SECTION
+    10. BLOG SECTION
+    11. CONTACT SECTION
+    12. FACTS SECTION
+
+>>>>>>> feature/cli-photo-update
 ******************/
 /*Poppins*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
@@ -51,8 +92,13 @@ h1, h2 {
   font-family: "Poppins", sans-serif;
 }
 
+<<<<<<< HEAD
 /*=================
     1. SETTINGS
+=======
+/*=================
+    1. SETTINGS
+>>>>>>> feature/cli-photo-update
 ==================*/
 ::-moz-selection {
   background: rgba(166, 175, 189, 0.3);
@@ -154,8 +200,13 @@ blockquote footer {
   width: 100%;
 }
 
+<<<<<<< HEAD
 /*=================
     2. HELPER
+=======
+/*=================
+    2. HELPER
+>>>>>>> feature/cli-photo-update
 ==================*/
 main {
   overflow-x: hidden;
@@ -454,8 +505,13 @@ section.home .mono-background .mono-background-inner img.img-align-left {
   z-index: 1;
 }
 
+<<<<<<< HEAD
 /*=================
     3. HEADER
+=======
+/*=================
+    3. HEADER
+>>>>>>> feature/cli-photo-update
 ==================*/
 /* 3.1 General Header Style */
 header {
@@ -559,8 +615,13 @@ header.horizontal_header .button-toggler.pressed span:last-child {
   }
 }
 
+<<<<<<< HEAD
 /*======================
     4. HOME SECTION
+=======
+/*======================
+    4. HOME SECTION
+>>>>>>> feature/cli-photo-update
 ======================*/
 section.home {
   height: 100vh;
@@ -754,8 +815,13 @@ p.welcome_text {
   }
 }
 
+<<<<<<< HEAD
 /*======================
     5. ABOUT SECTION
+=======
+/*======================
+    5. ABOUT SECTION
+>>>>>>> feature/cli-photo-update
 ======================*/
 section.about h3 {
   font-size: 2em;
@@ -775,8 +841,13 @@ section.about .about-info span.desc {
   opacity: 1;
 }
 
+<<<<<<< HEAD
 /*========================
     6. SERVICE SECTION
+=======
+/*========================
+    6. SERVICE SECTION
+>>>>>>> feature/cli-photo-update
 ========================*/
 .service-single {
   cursor: pointer;
@@ -806,8 +877,13 @@ section.about .about-info span.desc {
   font-weight: 300;
 }
 
+<<<<<<< HEAD
 /*========================
     7. PORTFOLIO SECTION
+=======
+/*========================
+    7. PORTFOLIO SECTION
+>>>>>>> feature/cli-photo-update
 ========================*/
 .portfolio-filters a {
   display: block;
@@ -846,8 +922,13 @@ section.about .about-info span.desc {
   font-size: 2em;
 }
 
+<<<<<<< HEAD
 /*========================
     8. RESUME SECTION
+=======
+/*========================
+    8. RESUME SECTION
+>>>>>>> feature/cli-photo-update
 ========================*/
 section.resume h3 {
   font-size: 1.5em;
@@ -908,8 +989,13 @@ section.resume h3 {
   transition: all 1.5s ease-in-out;
 }
 
+<<<<<<< HEAD
 /*========================
     9. TESTIMONIAL SECTION
+=======
+/*========================
+    9. TESTIMONIAL SECTION
+>>>>>>> feature/cli-photo-update
 ========================*/
 .testimonial-box {
   line-height: 23.5px;
@@ -929,8 +1015,13 @@ section.resume h3 {
   font-weight: 600;
 }
 
+<<<<<<< HEAD
 /*========================
     10. BLOG SECTION
+=======
+/*========================
+    10. BLOG SECTION
+>>>>>>> feature/cli-photo-update
 ========================*/
 .news-item .news-content .news-title {
   min-height: 55px;
@@ -955,8 +1046,13 @@ section.resume h3 {
   opacity: 0.7;
 }
 
+<<<<<<< HEAD
 /*========================
     11. CONTACT SECTION
+=======
+/*========================
+    11. CONTACT SECTION
+>>>>>>> feature/cli-photo-update
 ========================*/
 .contact-icon {
   font-size: 2.6em;
@@ -1014,8 +1110,13 @@ input.form-control {
   height: 50px;
 }
 
+<<<<<<< HEAD
 /*==========================
     12. FACTS SECTION
+=======
+/*==========================
+    12. FACTS SECTION
+>>>>>>> feature/cli-photo-update
 ===========================*/
 section.facts .fact-single,
 div.section.facts .fact-single {

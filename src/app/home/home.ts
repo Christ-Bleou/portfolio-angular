@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import {Header} from '../shared/components/header/header';
 import {Preloader} from '../shared/components/preloader/preloader';
 import {Introduction} from './components/introduction/introduction';
@@ -14,26 +14,19 @@ import {Blog} from './components/blog/blog';
 import {Contact} from './components/contact/contact';
 import {Footer} from '../shared/components/footer/footer';
 
+import { CommonModule } from '@angular/common';
+import { ProfileService } from '../profile.service';
+
 @Component({
   selector: 'app-home',
-  imports: [
-    Header,
-    Preloader,
-    Introduction,
-    About,
-    Facts,
-    Services,
-    Movie,
-    Portfolio,
-    Projet,
-    Resume,
-    Testimonial,
-    Blog,
-    Contact,
-    Footer
-  ],
+  standalone: true,
+  imports: [Header, Preloader, About,
+    Facts, Services, Movie, Portfolio, Projet, Resume, Testimonial,
+    Blog, Contact, Footer, CommonModule
+  ], //Introduction
   templateUrl: './home.html'
 })
 export class Home {
-
+  // Injection du service
+  profileService = inject(ProfileService);
 }

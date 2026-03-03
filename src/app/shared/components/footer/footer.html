@@ -1,39 +1,62 @@
-<footer class="horizontal-footer shadow-footer">
+<section id="home" class="hero-style" *ngIf="profileService.config() as info">
   <div class="container">
+    <div class="row align-items-center">
+      
+      <div class="col-md-4 text-center mb-4 mb-md-0" *ngIf="info.photoPath">
+        <img [src]="info.photoPath" alt="Ma Photo" 
+             style="width: 250px; height: 250px; object-fit: cover; border-radius: 50%; border: 5px solid white; box-shadow: 0 0 20px rgba(0,0,0,0.2);">
+      </div>
+
+      <div class="col-md-8 text-center text-md-left">
+        <h1>Bonjour, je suis <span class="accent">{{ info.firstName }} {{ info.lastName }}</span></h1>
+        <p>{{ info.jobTitle }}</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div *ngIf="!profileService.config()">
+  <p>Chargement...</p>
+</div>
+
+<main class="content center-main" >
+
+<footer class="horizontal-footer shadow-footer">
+
+  <div class="container" *ngIf="profileService.config() as info">
     <div class="row justify-content-center text-center">
       <div class="col-md-12">
         <div class="text-center">
           <ul class="social-icons list-inline mt-5">
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-facebook-f"></i>
-              </a>
+            
+            <li class="list-inline-item" *ngIf="info.socialFacebook">
+              <a [href]="info.socialFacebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
             </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
+
+            <li class="list-inline-item" *ngIf="info.socialLinkedin">
+              <a [href]="info.socialLinkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-pinterest-p"></i>
-              </a>
+
+            <li class="list-inline-item" *ngIf="info.socialPinterest">
+              <a [href]="info.socialPinterest" target="_blank"><i class="fab fa-pinterest-p"></i></a>
             </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-git"></i>
-              </a>
+
+            <li class="list-inline-item" *ngIf="info.socialGithub">
+              <a [href]="info.socialGithub" target="_blank"><i class="fab fa-github"></i></a>
             </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-tumblr"></i>
-              </a>
-            </li>
+
+             <li class="list-inline-item" *ngIf="info.socialTwitter">
+                <a [href]="info.socialTwitter" target="_blank"><i class="fab fa-twitter"></i></a>
+              </li>
+
           </ul>
-          <p class="copyright-text mt-3 mb-5">2021 ©. RectCV Template. Developed and Designed by <b>themesuccess</b></p>
+          <p class="copyright-text mt-3 mb-5">
+            {{ currentYear }} ©. Portfolio - Créé par <b>{{ info.firstName }} {{ info.lastName }}</b>
+          </p>
         </div>
       </div>
     </div>
   </div>
-
+  
 </footer>

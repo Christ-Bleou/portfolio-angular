@@ -1,11 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { ProfileService } from '../../../profile.service';
 
 @Component({
   selector: 'app-about',
-  imports: [],
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './about.html',
-  styleUrl: './about.scss',
 })
 export class About {
-
+  profileService = inject(ProfileService);
 }

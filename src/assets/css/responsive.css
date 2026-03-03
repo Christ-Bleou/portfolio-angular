@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*---------------------------------------------------------------------------------------
 * Template Name      :  RectCV - Personal Bootstrap 4 HTML Template                      |
 * Author             :  Narek Sukiasyan                                                  |
@@ -6,6 +7,16 @@
 * Updated            :  February 2021                                                    |
 * File Description   :  Responsive css file of the template                              |
 *----------------------------------------------------------------------------------------
+=======
+/*---------------------------------------------------------------------------------------
+* Template Name      :  RectCV - Personal Bootstrap 4 HTML Template                      |
+* Author             :  Narek Sukiasyan                                                  |
+* Version            :  1.1.0                                                            |
+* Created            :  April 2020                                                       |
+* Updated            :  February 2021                                                    |
+* File Description   :  Responsive css file of the template                              |
+*----------------------------------------------------------------------------------------
+>>>>>>> feature/cli-photo-update
 */
 /* For MOBILE DEVICES */
 @media (max-width: 992px) {

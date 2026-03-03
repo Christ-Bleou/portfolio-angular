@@ -41,3 +41,8 @@ __screenshots__/
 # System files
 .DS_Store
 Thumbs.db
+
+# Autres
+/Autres
+/src/assets/data
+/src/assets/img

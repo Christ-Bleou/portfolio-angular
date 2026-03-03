@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*---------------------------------------------------------------------------------------
 * Template Name      :  RectCV - Personal Bootstrap 4 HTML Template                      |
 * Author             :  Narek Sukiasyan                                                  |
@@ -15,4 +16,23 @@
 
 
 //Importing CSS Selectors
+=======
+/*---------------------------------------------------------------------------------------
+* Template Name      :  RectCV - Personal Bootstrap 4 HTML Template                      |
+* Author             :  Narek Sukiasyan                                                  |
+* Version            :  1.1.0                                                            |
+* Created            :  April 2020                                                       |
+* Updated            :  February 2021                                                    |
+* File Description   :  Color Scheme css file of the template                            |
+*----------------------------------------------------------------------------------------
+*/
+
+
+//Importing Color Variables
+
+@import 'color/red';
+
+
+//Importing CSS Selectors
+>>>>>>> feature/cli-photo-update
 @import 'color/color_style';
