@@ -1,0 +1,10 @@
+{
+    "$schema": "./node_modules/@angular-devkit/schematics/collection-schema.json",
+    "schematics": {
+        "portfolio": {
+            "description": "Génère un nouveau portfolio personnel",
+            "factory": "./portfolio/index#portfolio",
+            "schema": "./portfolio/schema.json"
+        }
+    }
+}
