@@ -64,3 +64,22 @@ class ProjetListSerializer(serializers.ModelSerializer):
     class Meta:
         model = Projet
         fields = ['id', 'titre', 'resume', 'image', 'lien', 'date_creation']
+
+class UtilisateurDetailSerializer(serializers.ModelSerializer):
+    """
+    Serializer pour GET /api/v1/users/<id>/
+    Renvoie l'utilisateur + ses projets (nested)
+    """
+    projets = ProjetListSerializer(many=True, read_only=True)
+
+    class Meta:
+        model = Utilisateur
+        fields = [
+            'id',
+            'prenom', 'nom',
+            'photo_profil', 'bio', 'age',
+            'email', 'telephone', 'lien_cv',
+            'projets',                    # ← les projets liés
+            'date_creation',
+        ]
+        read_only_fields = fields  # tout en lecture seule pour cet endpoint

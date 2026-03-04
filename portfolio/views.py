@@ -10,7 +10,7 @@ import zipfile
 import os
 
 from .models import Utilisateur, Projet
-from .serializers import UtilisateurCreateSerializer, ProjetCreateSerializer, ProjetListSerializer
+from .serializers import UtilisateurCreateSerializer, ProjetCreateSerializer, ProjetListSerializer, UtilisateurDetailSerializer
 
 
 class UtilisateurCreateView(APIView):
@@ -117,3 +117,18 @@ class GeneratePortfolioView(APIView):
             return FileResponse(open(zip_path, 'rb'), as_attachment=True, filename=os.path.basename(zip_path))
         finally:
             shutil.rmtree(tmpdir, ignore_errors=True)
+
+class UtilisateurDetailView(APIView):
+    """
+    GET /api/v1/users/<id>/
+    Récupère un utilisateur + tous ses projets (et plus tard on pourra ajouter expériences, etc.)
+    """
+
+    def get(self, request, pk):
+        try:
+            utilisateur = Utilisateur.objects.get(pk=pk)
+        except Utilisateur.DoesNotExist:
+            return Response({"detail": "Utilisateur non trouvé"}, status=status.HTTP_404_NOT_FOUND)
+
+        serializer = UtilisateurDetailSerializer(utilisateur)
+        return Response(serializer.data)

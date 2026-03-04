@@ -1,8 +1,108 @@
-.vscode/
-venv
+# === Python ===
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Autres & 
+# === Virtual Environments ===
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv
+
+# === Django ===
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+/media/
+/staticfiles/
+*.pot
+
+# === IDE & Editors ===
+.vscode/
+.idea/
+.vs/
+*.code-workspace
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# === Environment Variables ===
+.env
+.env.local
+.env.*.local
+
+# === Testing & Coverage ===
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
+.tox.ini
+
+# === OS Files ===
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+ehthumbs.db
+
+# === Node (if using Angular frontend) ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Build Outputs ===
+dist/
+build/
+*.bundle.*
+
+# === Project Specific ===
+/Autres/
 generate_context.ps1
-/Autres
 projet_portfolio_django_context.txt
+*.zip
+tmpfiles/
+
+# === VS Code Workspace ===
+.vscode/settings.json
+.vscode/extensions.json
+
+# === Mac ===
+.AppleDouble
+.LSOverride

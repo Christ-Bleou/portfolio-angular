@@ -44,6 +44,23 @@ INSTALLED_APPS = [
     'portfolio',
 ]
 
+# REST Framework Configuration
+REST_FRAMEWORK = {
+    'DEFAULT_PARSER_CLASSES': [
+        'rest_framework.parsers.JSONParser',      # Pour JSON (essentiel pour tes POST)
+        'rest_framework.parsers.FormParser',      # Pour forms classiques
+        'rest_framework.parsers.MultiPartParser'  # Pour upload d'images/fichiers (utile pour photo_profil, image projet)
+    ],
+    # Optionnel mais recommandé pour plus tard
+    'DEFAULT_RENDERER_CLASSES': [
+        'rest_framework.renderers.JSONRenderer',
+        'rest_framework.renderers.BrowsableAPIRenderer',
+    ],
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.AllowAny',  # Temporaire – tout le monde peut lire/écrire
+    ],
+}
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'corsheaders.middleware.CorsMiddleware',
@@ -55,6 +72,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+
 
 ROOT_URLCONF = 'portfolio_backend.urls'
 
