@@ -1,0 +1,8 @@
+.vscode/
+venv
+__pycache__/
+
+# Autres & 
+generate_context.ps1
+/Autres
+projet_portfolio_django_context.txt
