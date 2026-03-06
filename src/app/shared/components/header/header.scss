@@ -1,0 +1,27 @@
+/* Keep this scoped to the header component */
+.theme-switcher {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.theme-switcher-btn {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.08);
+  color: #f0f0f0;
+  padding: 6px 10px;
+  line-height: 1;
+  border-radius: 8px;
+  transition: background 160ms ease, border-color 160ms ease, transform 160ms ease;
+}
+
+.theme-switcher-btn:hover {
+  background: rgba(255, 255, 255, 0.14);
+  border-color: rgba(255, 255, 255, 0.35);
+  transform: translateY(-1px);
+}
+
+.theme-switcher-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.12);
+}

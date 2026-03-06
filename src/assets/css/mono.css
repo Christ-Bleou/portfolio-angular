@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 /*---------------------------------------------------------------------------------------
-* Template Name      :  RectCV - Personal Bootstrap 4 HTML Template                      |
+* Template Name      :  BléouCV - Personal Bootstrap 4 HTML Template                      |
 * Author             :  Narek Sukiasyan                                                  |
 * Version            :  1.1.0                                                            |
 * Created            :  April 2020                                                       |
@@ -37,46 +36,6 @@ Table of Content
     11. CONTACT SECTION
     12. FACTS SECTION
 
-=======
-/*---------------------------------------------------------------------------------------
-* Template Name      :  RectCV - Personal Bootstrap 4 HTML Template                      |
-* Author             :  Narek Sukiasyan                                                  |
-* Version            :  1.1.0                                                            |
-* Created            :  April 2020                                                       |
-* Updated            :  February 2021                                                    |
-* File Description   :  Main css file of the template                                    |
-*----------------------------------------------------------------------------------------
-*/
-/******************
-Table of Content
-
-    1. SETTINGS
-        1.1 Preloader
-    2. HELPER
-        2.1 Custom Alert
-        2.2 Buttons
-        2.3 SOCIAL ICONS
-        2.4 OWL SLIDER
-        2.5 RETURN TOP BUTTON
-    3. HEADER
-        3.1 General Header Style
-        3.2 Horizontal Header Style
-        3.3 Mobile Toggler Button
-    4. HOME SECTION
-        4.1 Parallax Element Positions
-        4.2 Background Animation Keyframe
-        4.3 Introduction Area
-        4.4 Scroll Down Button
-    5. ABOUT SECTION
-    6. SERVICE SECTION
-    7. PORTFOLIO SECTION
-    8. RESUME SECTION
-    9. TESTIMONIAL SECTION
-    10. BLOG SECTION
-    11. CONTACT SECTION
-    12. FACTS SECTION
-
->>>>>>> feature/cli-photo-update
 ******************/
 /*Poppins*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
@@ -86,27 +45,25 @@ Table of Content
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap");
 /*Roboto Mono*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap");
+
 body {
   font-family: 'Roboto Mono', monospace;
   font-size: 16px;
   line-height: 1.7;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: 'Ubuntu Mono', monospace;
 }
 
-<<<<<<< HEAD
 /*=================
     1. SETTINGS
-=======
-/*=================
-    1. SETTINGS
->>>>>>> feature/cli-photo-update
 ==================*/
 ::-moz-selection {
   background: rgba(166, 175, 189, 0.3);
 }
+
 ::selection {
   background: rgba(166, 175, 189, 0.3);
 }
@@ -120,7 +77,8 @@ h2 {
   position: relative;
 }
 
-h1, h2 {
+h1,
+h2 {
   letter-spacing: 2px;
 }
 
@@ -176,11 +134,11 @@ article h2 {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   overflow: hidden;
 }
 
@@ -204,13 +162,8 @@ blockquote footer {
   width: 100%;
 }
 
-<<<<<<< HEAD
 /*=================
     2. HELPER
-=======
-/*=================
-    2. HELPER
->>>>>>> feature/cli-photo-update
 ==================*/
 main {
   overflow-x: hidden;
@@ -272,7 +225,7 @@ div.section .section-title h2.text_background span.heading_background {
   width: 100%;
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   top: 0;
   font-size: 140px;
   font-weight: 900;
@@ -295,19 +248,19 @@ section.home .mono-background {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 section.home .mono-background .mono-background-inner {
   height: 100%;
   overflow: hidden;
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 55%;
-          flex: 0 0 55%;
+  -ms-flex: 0 0 55%;
+  flex: 0 0 55%;
   position: relative;
 }
 
@@ -320,7 +273,7 @@ section.home .mono-background .mono-background-inner img {
 section.home .mono-background .mono-background-inner img.img-align-center {
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 section.home .mono-background .mono-background-inner img.img-align-right {
@@ -335,12 +288,15 @@ section.home .mono-background .mono-background-inner img.img-align-left {
   0% {
     right: -5px;
   }
+
   30% {
     right: -5px;
   }
+
   80% {
     right: calc(100% - 5px);
   }
+
   100% {
     right: calc(100% - 5px);
   }
@@ -350,12 +306,15 @@ section.home .mono-background .mono-background-inner img.img-align-left {
   0% {
     right: -5px;
   }
+
   30% {
     right: -5px;
   }
+
   80% {
     right: calc(100% - 5px);
   }
+
   100% {
     right: calc(100% - 5px);
   }
@@ -509,13 +468,8 @@ section.home .mono-background .mono-background-inner img.img-align-left {
   z-index: 1;
 }
 
-<<<<<<< HEAD
 /*=================
     3. HEADER
-=======
-/*=================
-    3. HEADER
->>>>>>> feature/cli-photo-update
 ==================*/
 /* 3.1 General Header Style */
 header {
@@ -591,13 +545,13 @@ header.horizontal_header .button-toggler.pressed span {
 
 header.horizontal_header .button-toggler.pressed span:first-child {
   -webkit-transform: translate(0, 7px) rotate(45deg);
-          transform: translate(0, 7px) rotate(45deg);
+  transform: translate(0, 7px) rotate(45deg);
   width: 25px;
 }
 
 header.horizontal_header .button-toggler.pressed span:last-child {
   -webkit-transform: translate(0, -7px) rotate(-45deg);
-          transform: translate(0, -7px) rotate(-45deg);
+  transform: translate(0, -7px) rotate(-45deg);
   width: 25px;
 }
 
@@ -611,21 +565,18 @@ header.horizontal_header .button-toggler.pressed span:last-child {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     -webkit-transform: translate(-50%, 0) translateZ(0);
-            transform: translate(-50%, 0) translateZ(0);
+    transform: translate(-50%, 0) translateZ(0);
     width: 0;
   }
-  header.horizontal_header ul li a:hover:after, header.horizontal_header ul li a.active:after {
+
+  header.horizontal_header ul li a:hover:after,
+  header.horizontal_header ul li a.active:after {
     width: calc(100% - 2.2em);
   }
 }
 
-<<<<<<< HEAD
 /*======================
     4. HOME SECTION
-=======
-/*======================
-    4. HOME SECTION
->>>>>>> feature/cli-photo-update
 ======================*/
 section.home {
   height: 100vh;
@@ -655,14 +606,14 @@ section.home .background-parallax .element {
   height: 0;
   position: absolute;
   -webkit-animation-name: background-animation;
-          animation-name: background-animation;
+  animation-name: background-animation;
   -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+  animation-duration: 5s;
   animation-direction: alternate-reverse;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
   -webkit-animation-timing-function: ease;
-          animation-timing-function: ease;
+  animation-timing-function: ease;
   border-radius: 50%;
 }
 
@@ -670,42 +621,42 @@ section.home .background-parallax .element.element1 {
   top: 24% !important;
   left: 78% !important;
   -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  animation-delay: 1s;
 }
 
 section.home .background-parallax .element.element6 {
   top: 80% !important;
   left: 22% !important;
   -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 
 section.home .background-parallax .element.element3 {
   top: 61% !important;
   left: 57% !important;
   -webkit-animation-delay: 0s;
-          animation-delay: 0s;
+  animation-delay: 0s;
 }
 
 section.home .background-parallax .element.element4 {
   top: 79% !important;
   left: 88% !important;
   -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 
 section.home .background-parallax .element.element5 {
   top: 23% !important;
   left: 18% !important;
   -webkit-animation-delay: 1.7s;
-          animation-delay: 1.7s;
+  animation-delay: 1.7s;
 }
 
 section.home .background-parallax .element.element2 {
   top: 50% !important;
   left: 37% !important;
   -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
+  animation-delay: 1.5s;
 }
 
 section.home h1 {
@@ -730,14 +681,17 @@ section.home h1:before {
   0% {
     opacity: 0.4;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 @keyframes background-animation {
   0% {
     opacity: 0.4;
   }
+
   100% {
     opacity: 1;
   }
@@ -790,11 +744,11 @@ p.welcome_text {
   height: 6px;
   border-radius: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   left: 50%;
   top: 4px;
   -webkit-animation: scroll 1s linear 0.5s infinite backwards;
-          animation: scroll 1s linear 0.5s infinite backwards;
+  animation: scroll 1s linear 0.5s infinite backwards;
 }
 
 @-webkit-keyframes scroll {
@@ -802,6 +756,7 @@ p.welcome_text {
     top: 4px;
     opacity: 1;
   }
+
   100% {
     top: 21px;
     opacity: 0;
@@ -813,19 +768,15 @@ p.welcome_text {
     top: 4px;
     opacity: 1;
   }
+
   100% {
     top: 21px;
     opacity: 0;
   }
 }
 
-<<<<<<< HEAD
 /*======================
     5. ABOUT SECTION
-=======
-/*======================
-    5. ABOUT SECTION
->>>>>>> feature/cli-photo-update
 ======================*/
 section.about h3 {
   font-size: 2em;
@@ -845,13 +796,8 @@ section.about .about-info span.desc {
   opacity: 1;
 }
 
-<<<<<<< HEAD
 /*========================
     6. SERVICE SECTION
-=======
-/*========================
-    6. SERVICE SECTION
->>>>>>> feature/cli-photo-update
 ========================*/
 .service-single {
   cursor: pointer;
@@ -859,7 +805,7 @@ section.about .about-info span.desc {
 
 .service-single:hover .service-icon {
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .service-single .service-icon {
@@ -883,13 +829,8 @@ section.about .about-info span.desc {
   min-height: 110px;
 }
 
-<<<<<<< HEAD
 /*========================
     7. PORTFOLIO SECTION
-=======
-/*========================
-    7. PORTFOLIO SECTION
->>>>>>> feature/cli-photo-update
 ========================*/
 .portfolio-filters a {
   display: block;
@@ -928,13 +869,8 @@ section.about .about-info span.desc {
   font-size: 2em;
 }
 
-<<<<<<< HEAD
 /*========================
     8. RESUME SECTION
-=======
-/*========================
-    8. RESUME SECTION
->>>>>>> feature/cli-photo-update
 ========================*/
 section.resume h3 {
   font-size: 1.5em;
@@ -995,13 +931,8 @@ section.resume h3 {
   transition: all 1.5s ease-in-out;
 }
 
-<<<<<<< HEAD
 /*========================
     9. TESTIMONIAL SECTION
-=======
-/*========================
-    9. TESTIMONIAL SECTION
->>>>>>> feature/cli-photo-update
 ========================*/
 .testimonial-box {
   line-height: 23.5px;
@@ -1021,13 +952,8 @@ section.resume h3 {
   font-weight: 600;
 }
 
-<<<<<<< HEAD
 /*========================
     10. BLOG SECTION
-=======
-/*========================
-    10. BLOG SECTION
->>>>>>> feature/cli-photo-update
 ========================*/
 .news-item .news-content .news-title {
   min-height: 55px;
@@ -1052,13 +978,8 @@ section.resume h3 {
   opacity: 0.7;
 }
 
-<<<<<<< HEAD
 /*========================
     11. CONTACT SECTION
-=======
-/*========================
-    11. CONTACT SECTION
->>>>>>> feature/cli-photo-update
 ========================*/
 .contact-icon {
   font-size: 2.6em;
@@ -1099,7 +1020,7 @@ section.resume h3 {
 
 .form-group.form-focused label {
   -webkit-transform: translateY(-25px);
-          transform: translateY(-25px);
+  transform: translateY(-25px);
 }
 
 .form-control {
@@ -1116,13 +1037,8 @@ input.form-control {
   height: 50px;
 }
 
-<<<<<<< HEAD
 /*==========================
     12. FACTS SECTION
-=======
-/*==========================
-    12. FACTS SECTION
->>>>>>> feature/cli-photo-update
 ===========================*/
 section.facts .fact-single,
 div.section.facts .fact-single {
@@ -1139,4 +1055,5 @@ div.section.facts .fact-single .fact-info {
   font-size: 2.5em;
   font-weight: 600;
 }
+
 /*# sourceMappingURL=mono.css.map */

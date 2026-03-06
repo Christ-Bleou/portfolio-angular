@@ -5,7 +5,7 @@
       <div class="site-logo">
         <a href="#" class="hoveroff" title="">
           <!--<img src="" alt="">-->
-          Rect<span>CV</span>
+          Bléou<span>CV</span>
         </a>
       </div>
       <button class="button-toggler navbar-toggler collapsed" type="button" data-target="#navigation" data-toggle="collapse" aria-controls="navigation" aria-expanded="false">
@@ -35,6 +35,16 @@
         </li>
         <li>
           <a href="#contact" class="nav-link">Contact</a>
+        </li>
+        <li class="nav-item theme-switcher">
+          <button type="button" class="btn btn-sm theme-switcher-btn" (click)="cycleTheme()">
+            Theme: {{ currentThemeLabel }}
+          </button>
+        </li>
+        <li class="nav-item theme-switcher">
+          <button type="button" class="btn btn-sm theme-switcher-btn" (click)="cycleBackground()">
+            Background: {{ currentBackgroundLabel }}
+          </button>
         </li>
       </ul>
       <!--Main Navigation END-->

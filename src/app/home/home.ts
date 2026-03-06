@@ -12,7 +12,6 @@ import {Resume} from './components/resume/resume';
 import {Testimonial} from './components/testimonial/testimonial';
 import {Blog} from './components/blog/blog';
 import {Contact} from './components/contact/contact';
-import {Footer} from '../shared/components/footer/footer';
 
 import { CommonModule } from '@angular/common';
 import { ProfileService } from '../profile.service';
@@ -22,7 +21,7 @@ import { ProfileService } from '../profile.service';
   standalone: true,
   imports: [Header, Preloader, About,
     Facts, Services, Movie, Portfolio, Projet, Resume, Testimonial,
-    Blog, Contact, Footer, CommonModule
+    Blog, Contact, CommonModule
   ], //Introduction
   templateUrl: './home.html'
 })

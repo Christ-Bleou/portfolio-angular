@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 /*---------------------------------------------------------------------------------------
-* Template Name      :  RectCV - Personal Bootstrap 4 HTML Template                      |
+* Template Name      :  BléouCV - Personal Bootstrap 4 HTML Template                      |
 * Author             :  Narek Sukiasyan                                                  |
 * Version            :  1.1.0                                                            |
 * Created            :  April 2020                                                       |
@@ -23,15 +23,17 @@ $accent-color: #FF5D4F;
     body {
         overflow-x: hidden;
     }
+
     main.content {
         margin-left: 0;
     }
-  
+
     header.navigation {
         .container {
             width: 85%;
         }
     }
+
     header.vertical_header {
         width: 280px;
         -webkit-transform: translateX(-280px);
@@ -40,7 +42,7 @@ $accent-color: #FF5D4F;
         -o-transform: translateX(-280px);
         transform: translateX(-280px);
 
-        
+
     }
 
     header.vertical_header.pressed {
@@ -51,7 +53,8 @@ $accent-color: #FF5D4F;
         transform: translateX(0px);
     }
 
-    header.mobile-header.pressed, main.pressed {
+    header.mobile-header.pressed,
+    main.pressed {
         -webkit-transform: translateX(280px);
         -moz-transform: translateX(280px);
         -ms-transform: translateX(280px);
@@ -63,7 +66,7 @@ $accent-color: #FF5D4F;
         display: flex;
     }
 
-    header.horizontal_header{
+    header.horizontal_header {
 
         ul {
             li {
@@ -74,15 +77,17 @@ $accent-color: #FF5D4F;
         }
 
     }
-    section, div.section{
+
+    section,
+    div.section {
         &.backgound-section {
             background-attachment: scroll !important;
         }
     }
 
-    section .section-title{
+    section .section-title {
         h2.text_background {
-            span.heading_background{
+            span.heading_background {
                 font-size: 40px;
                 top: -36%;
             }
@@ -99,17 +104,16 @@ $accent-color: #FF5D4F;
 }
 
 
-@media (max-width: 768px)
-{
+@media (max-width: 768px) {
     article {
 
-        .article-ins, 
+        .article-ins,
         .article-heading,
         .article-tags,
         .article-meta {
             border: 0 !important;
         }
-       
+
     }
 }
 
@@ -118,22 +122,22 @@ $accent-color: #FF5D4F;
 /*IF DISPLAY HEIGHT RESOLUTION IS LOWER THAN 712px*/
 
 @media (max-height: 712px) {
-    header.vertical_header{
+    header.vertical_header {
         ul {
             li {
                 margin-bottom: 18px !important;
             }
-        
+
             li:after {
                 height: calc(100% - 25px) !important;
             }
-    
+
         }
     }
-   
-=======
-/*---------------------------------------------------------------------------------------
-* Template Name      :  RectCV - Personal Bootstrap 4 HTML Template                      |
+
+    =======
+    /*---------------------------------------------------------------------------------------
+* Template Name      :  BléouCV - Personal Bootstrap 4 HTML Template                      |
 * Author             :  Narek Sukiasyan                                                  |
 * Version            :  1.1.0                                                            |
 * Created            :  April 2020                                                       |
@@ -144,125 +148,129 @@ $accent-color: #FF5D4F;
 
 
 
-$mobile-nav-color: #101b27;
-$text-color: #F0F0F0;
-$accent-color: #FF5D4F;
+    $mobile-nav-color: #101b27;
+    $text-color: #F0F0F0;
+    $accent-color: #FF5D4F;
 
 
 
-/* For MOBILE DEVICES */
-@media (max-width: 992px) {
+    /* For MOBILE DEVICES */
+    @media (max-width: 992px) {
 
-    body {
-        overflow-x: hidden;
-    }
-    main.content {
-        margin-left: 0;
-    }
-  
-    header.navigation {
-        .container {
-            width: 85%;
+        body {
+            overflow-x: hidden;
         }
-    }
-    header.vertical_header {
-        width: 280px;
-        -webkit-transform: translateX(-280px);
-        -moz-transform: translateX(-280px);
-        -ms-transform: translateX(-280px);
-        -o-transform: translateX(-280px);
-        transform: translateX(-280px);
 
-        
-    }
+        main.content {
+            margin-left: 0;
+        }
 
-    header.vertical_header.pressed {
-        -webkit-transform: translateX(0px);
-        -moz-transform: translateX(0px);
-        -ms-transform: translateX(0px);
-        -o-transform: translateX(0px);
-        transform: translateX(0px);
-    }
+        header.navigation {
+            .container {
+                width: 85%;
+            }
+        }
 
-    header.mobile-header.pressed, main.pressed {
-        -webkit-transform: translateX(280px);
-        -moz-transform: translateX(280px);
-        -ms-transform: translateX(280px);
-        -o-transform: translateX(280px);
-        transform: translateX(280px);
-    }
+        header.vertical_header {
+            width: 280px;
+            -webkit-transform: translateX(-280px);
+            -moz-transform: translateX(-280px);
+            -ms-transform: translateX(-280px);
+            -o-transform: translateX(-280px);
+            transform: translateX(-280px);
 
-    header.mobile-header {
-        display: flex;
-    }
 
-    header.horizontal_header{
+        }
 
-        ul {
-            li {
-                a {
-                    padding: 6px 0px;
+        header.vertical_header.pressed {
+            -webkit-transform: translateX(0px);
+            -moz-transform: translateX(0px);
+            -ms-transform: translateX(0px);
+            -o-transform: translateX(0px);
+            transform: translateX(0px);
+        }
+
+        header.mobile-header.pressed,
+        main.pressed {
+            -webkit-transform: translateX(280px);
+            -moz-transform: translateX(280px);
+            -ms-transform: translateX(280px);
+            -o-transform: translateX(280px);
+            transform: translateX(280px);
+        }
+
+        header.mobile-header {
+            display: flex;
+        }
+
+        header.horizontal_header {
+
+            ul {
+                li {
+                    a {
+                        padding: 6px 0px;
+                    }
+                }
+            }
+
+        }
+
+        section,
+        div.section {
+            &.backgound-section {
+                background-attachment: scroll !important;
+            }
+        }
+
+        section .section-title {
+            h2.text_background {
+                span.heading_background {
+                    font-size: 40px;
+                    top: -36%;
                 }
             }
         }
 
-    }
-    section, div.section{
-        &.backgound-section {
-            background-attachment: scroll !important;
-        }
-    }
-
-    section .section-title{
-        h2.text_background {
-            span.heading_background{
-                font-size: 40px;
-                top: -36%;
+        section.home {
+            .mono-background {
+                .mono-background-inner {
+                    flex: 0 0 100%;
+                }
             }
         }
     }
 
-    section.home {
-        .mono-background {
-            .mono-background-inner {
-                flex: 0 0 100%;
+
+    @media (max-width: 768px) {
+        article {
+
+            .article-ins,
+            .article-heading,
+            .article-tags,
+            .article-meta {
+                border: 0 !important;
             }
+
         }
     }
-}
-
-
-@media (max-width: 768px)
-{
-    article {
-
-        .article-ins, 
-        .article-heading,
-        .article-tags,
-        .article-meta {
-            border: 0 !important;
-        }
-       
-    }
-}
 
 
 
-/*IF DISPLAY HEIGHT RESOLUTION IS LOWER THAN 712px*/
+    /*IF DISPLAY HEIGHT RESOLUTION IS LOWER THAN 712px*/
 
-@media (max-height: 712px) {
-    header.vertical_header{
-        ul {
-            li {
-                margin-bottom: 18px !important;
+    @media (max-height: 712px) {
+        header.vertical_header {
+            ul {
+                li {
+                    margin-bottom: 18px !important;
+                }
+
+                li:after {
+                    height: calc(100% - 25px) !important;
+                }
+
             }
-        
-            li:after {
-                height: calc(100% - 25px) !important;
-            }
-    
         }
+
+        >>>>>>>feature/cli-photo-update
     }
-   
->>>>>>> feature/cli-photo-update
-}

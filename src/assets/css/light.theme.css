@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 /*---------------------------------------------------------------------------------------
-* Template Name      :  RectCV - Personal Bootstrap 4 HTML Template                      |
+* Template Name      :  BléouCV - Personal Bootstrap 4 HTML Template                      |
 * Author             :  Narek Sukiasyan                                                  |
 * Version            :  1.1.0                                                            |
 * Created            :  April 2020                                                       |
@@ -39,58 +38,33 @@ Table of Content
 ******************/
 /*=================
     1. SETTINGS
-=======
-/*---------------------------------------------------------------------------------------
-* Template Name      :  RectCV - Personal Bootstrap 4 HTML Template                      |
-* Author             :  Narek Sukiasyan                                                  |
-* Version            :  1.1.0                                                            |
-* Created            :  April 2020                                                       |
-* Updated            :  February 2021                                                    |
-* File Description   :  Light theme css file of the template                             |
-*----------------------------------------------------------------------------------------
-*/
-/******************
-Table of Content
-
-    1. SETTINGS
-        1.1 Preloader
-        1.2 Form Control
-    2. HELPER
-        2.1 Social Icons Design
-        2.2 Button Toggler
-        2.3 OWL Slider
-    3. HEADER
-        3.1 General Header Style
-        3.2 Horizontal Header Style
-    4. HOME SECTION
-        4.1 Parallax Element Colors
-        4.2 Scroll Down Button
-    5. ABOUT SECTION
-    6. SERVICE SECTION
-    7. PORTFOLIO SECTION
-    8. RESUME SECTION
-    9. TESTIMONIAL SECTION
-    10. BLOG SECTION
-    11. CONTACT SECTION
-    12. FOOTER SECTION
-    13. FACTS SECTION
-    14. PROJECT SECTION
-    15. VIDEO SECTION
-
-******************/
-/*=================
-    1. SETTINGS
->>>>>>> feature/cli-photo-update
 ==================*/
 body {
   background-color: #FFFFFF;
+}
+
+body.bg-green-light {
+  background-color: #f5fff9;
+  background-image: radial-gradient(1100px 780px at 50% -10%, rgba(255, 255, 255, 0.85) 0%, rgba(206, 255, 232, 0.95) 40%, rgba(178, 255, 220, 0.95) 100%);
+  background-attachment: fixed;
+}
+
+body.bg-violet {
+  background-color: #fbf8ff;
+  background-image: radial-gradient(1100px 780px at 50% -10%, rgba(255, 255, 255, 0.85) 0%, rgba(237, 226, 255, 0.95) 40%, rgba(211, 190, 255, 0.95) 100%);
+  background-attachment: fixed;
 }
 
 h2 {
   font-weight: 500;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #333333;
 }
 
@@ -102,7 +76,10 @@ p {
   color: #656565;
 }
 
-article p, article ul, article ol, article blockquote {
+article p,
+article ul,
+article ol,
+article blockquote {
   color: #656565;
 }
 
@@ -128,39 +105,39 @@ blockquote footer {
   background-color: initial;
 }
 
-<<<<<<< HEAD
 /*=================
     2. HELPER
-=======
-/*=================
-    2. HELPER
->>>>>>> feature/cli-photo-update
 ==================*/
-section .section-title h2.rect_heading, div.section .section-title h2.rect_heading {
+section .section-title h2.rect_heading,
+div.section .section-title h2.rect_heading {
   border: 1px solid #a2a2a2;
 }
 
-section .section-title h2.text_background span.heading_background, div.section .section-title h2.text_background span.heading_background {
+section .section-title h2.text_background span.heading_background,
+div.section .section-title h2.text_background span.heading_background {
   color: transparent;
   -webkit-text-stroke: 1px rgba(51, 51, 51, 0.1);
 }
 
-section .section-title p, div.section .section-title p {
+section .section-title p,
+div.section .section-title p {
   color: #333333;
   font-weight: 300;
 }
 
-section.backgound-section, div.section.backgound-section {
+section.backgound-section,
+div.section.backgound-section {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
   -webkit-box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.7);
-          box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.7);
+  box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.7);
   -webkit-appearance: none;
 }
 
-section.preload, div.section.preload {
+section.preload,
+div.section.preload {
   background-attachment: scroll;
 }
 
@@ -226,13 +203,8 @@ a.hoveroff:hover {
   font-size: 1.2em;
 }
 
-<<<<<<< HEAD
 /*=================
     3. HEADER
-=======
-/*=================
-    3. HEADER
->>>>>>> feature/cli-photo-update
 ==================*/
 /* 3.1 General Header Style */
 header .site-logo a {
@@ -262,17 +234,12 @@ header.horizontal_header ul li a:after {
   color: #fff;
 }
 
-<<<<<<< HEAD
 /*====================
     4. HOME SECTION
-=======
-/*====================
-    4. HOME SECTION
->>>>>>> feature/cli-photo-update
 =====================*/
 section.home {
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   /* 4.1 Parallax Element Colors */
 }
 
@@ -282,22 +249,22 @@ section.home h1 {
 
 section.home .background-parallax .element.red {
   -webkit-box-shadow: 0px 0px 190px 260px rgba(229, 65, 68, 0.1);
-          box-shadow: 0px 0px 190px 260px rgba(229, 65, 68, 0.1);
+  box-shadow: 0px 0px 190px 260px rgba(229, 65, 68, 0.1);
 }
 
 section.home .background-parallax .element.blue {
   -webkit-box-shadow: 0px 0px 160px 200px rgba(26, 123, 183, 0.1);
-          box-shadow: 0px 0px 160px 200px rgba(26, 123, 183, 0.1);
+  box-shadow: 0px 0px 160px 200px rgba(26, 123, 183, 0.1);
 }
 
 section.home .background-parallax .element.green {
   -webkit-box-shadow: 0px 0px 145px 220px rgba(28, 186, 90, 0.1);
-          box-shadow: 0px 0px 145px 220px rgba(28, 186, 90, 0.1);
+  box-shadow: 0px 0px 145px 220px rgba(28, 186, 90, 0.1);
 }
 
 section.home .background-parallax .element.orange {
   -webkit-box-shadow: 0px 0px 165px 210px rgba(240, 127, 129, 0.1);
-          box-shadow: 0px 0px 165px 210px rgba(240, 127, 129, 0.1);
+  box-shadow: 0px 0px 165px 210px rgba(240, 127, 129, 0.1);
 }
 
 h1 {
@@ -324,13 +291,8 @@ span.welcome_text {
   background-color: #333333;
 }
 
-<<<<<<< HEAD
 /*====================
     5. ABOUT SECTION
-=======
-/*====================
-    5. ABOUT SECTION
->>>>>>> feature/cli-photo-update
 =====================*/
 section.about h3 {
   font-weight: 500;
@@ -344,13 +306,8 @@ section.about .about-info span.desc {
   color: #333333;
 }
 
-<<<<<<< HEAD
 /*=======================
     6. SERVICE SECTION
-=======
-/*=======================
-    6. SERVICE SECTION
->>>>>>> feature/cli-photo-update
 ========================*/
 .service-single {
   background-color: #FFFFFF;
@@ -361,13 +318,8 @@ section.about .about-info span.desc {
   color: #333333;
 }
 
-<<<<<<< HEAD
 /*=======================
     7. PORTFOLIO SECTION
-=======
-/*=======================
-    7. PORTFOLIO SECTION
->>>>>>> feature/cli-photo-update
 ========================*/
 .portfolio-item .portfolio-single:hover {
   color: #333333;
@@ -404,13 +356,8 @@ section.about .about-info span.desc {
   color: #fff;
 }
 
-<<<<<<< HEAD
 /*=======================
     8. RESUME SECTION
-=======
-/*=======================
-    8. RESUME SECTION
->>>>>>> feature/cli-photo-update
 ========================*/
 .resume-title {
   font-weight: 500;
@@ -460,13 +407,8 @@ section.about .about-info span.desc {
   font-weight: 500;
 }
 
-<<<<<<< HEAD
 /*===========================
     9. TESTIMONIAL SECTION
-=======
-/*===========================
-    9. TESTIMONIAL SECTION
->>>>>>> feature/cli-photo-update
 ============================*/
 .testimonial-box {
   border: 2px solid #FFFFFF;
@@ -480,13 +422,8 @@ section.about .about-info span.desc {
   border-radius: 50%;
 }
 
-<<<<<<< HEAD
 /*=======================
     10. BLOG SECTION
-=======
-/*=======================
-    10. BLOG SECTION
->>>>>>> feature/cli-photo-update
 ========================*/
 .news-item {
   background-color: #FFFFFF;
@@ -507,13 +444,8 @@ section.about .about-info span.desc {
   color: #333333;
 }
 
-<<<<<<< HEAD
 /*=======================
     11. CONTACT SECTION
-=======
-/*=======================
-    11. CONTACT SECTION
->>>>>>> feature/cli-photo-update
 ========================*/
 .contact-details h5 {
   font-weight: 500;
@@ -526,7 +458,7 @@ section.about .about-info span.desc {
 
 .form-control {
   -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
   border: 1px solid #a2a2a2;
   border-radius: 0px;
   background-color: transparent;
@@ -558,13 +490,8 @@ section.about .about-info span.desc {
   color: #AAAAAA;
 }
 
-<<<<<<< HEAD
 /*=======================
     12. FOOTER SECTION
-=======
-/*=======================
-    12. FOOTER SECTION
->>>>>>> feature/cli-photo-update
 ========================*/
 footer.horizontal-footer {
   background-color: #FFFFFF;
@@ -580,37 +507,24 @@ footer.horizontal-footer .copyright-text {
   font-weight: 300;
 }
 
-<<<<<<< HEAD
 /*==========================
     13. FACTS SECTION
-=======
-/*==========================
-    13. FACTS SECTION
->>>>>>> feature/cli-photo-update
 ===========================*/
-section.facts .fact-single, div.section.facts .fact-single {
+section.facts .fact-single,
+div.section.facts .fact-single {
   color: #333333;
 }
 
-<<<<<<< HEAD
 /*==========================
     14. PROJECT SECTION
-=======
-/*==========================
-    14. PROJECT SECTION
->>>>>>> feature/cli-photo-update
 ===========================*/
-section.project .box, div.section.project .box {
+section.project .box,
+div.section.project .box {
   background-color: #FFFFFF;
 }
 
-<<<<<<< HEAD
 /*==========================
     15. VIDEO SECTION
-=======
-/*==========================
-    15. VIDEO SECTION
->>>>>>> feature/cli-photo-update
 ===========================*/
 section.about_movie {
   background-size: cover;
@@ -628,6 +542,7 @@ section.about_movie {
 
 .btn-video-play:hover {
   -webkit-box-shadow: 0px 0px 0px 8px rgba(250, 250, 250, 0.2);
-          box-shadow: 0px 0px 0px 8px rgba(250, 250, 250, 0.2);
+  box-shadow: 0px 0px 0px 8px rgba(250, 250, 250, 0.2);
 }
+
 /*# sourceMappingURL=light.theme.css.map */

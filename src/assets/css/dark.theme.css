@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 /*---------------------------------------------------------------------------------------
-* Template Name      :  RectCV - Personal Bootstrap 4 HTML Template                      |
+* Template Name      :  BléouCV - Personal Bootstrap 4 HTML Template                      |
 * Author             :  Narek Sukiasyan                                                  |
 * Version            :  1.1.0                                                            |
 * Created            :  April 2020                                                       |
@@ -39,58 +38,35 @@ Table of Content
 ******************/
 /*=================
     1. SETTINGS
-=======
-/*---------------------------------------------------------------------------------------
-* Template Name      :  RectCV - Personal Bootstrap 4 HTML Template                      |
-* Author             :  Narek Sukiasyan                                                  |
-* Version            :  1.1.0                                                            |
-* Created            :  April 2020                                                       |
-* Updated            :  February 2021                                                    |
-* File Description   :  Dark theme css file of the template                              |
-*----------------------------------------------------------------------------------------
-*/
-/******************
-Table of Content
-
-    1. SETTINGS
-        1.1 Preloader
-        1.2 Form Control
-    2. HELPER
-        2.1 Social Icons Design
-        2.2 Button Toggler
-        2.3 OWL Slider
-    3. HEADER
-        3.1 General Header Style
-        3.2 Horizontal Header Style
-    4. HOME SECTION
-        4.1 Parallax Element Colors
-        4.2 Scroll Down Button
-    5. ABOUT SECTION
-    6. SERVICE SECTION
-    7. PORTFOLIO SECTION
-    8. RESUME SECTION
-    9. TESTIMONIAL SECTION
-    10. BLOG SECTION
-    11. CONTACT SECTION
-    12. FOOTER SECTION
-    13. FACTS SECTION
-    14. PROJECT SECTION
-    15. VIDEO SECTION
-
-******************/
-/*=================
-    1. SETTINGS
->>>>>>> feature/cli-photo-update
 ==================*/
 body {
-  background-color: #1e2326;
+  background-color: #0b1020;
+  background-image: radial-gradient(1200px 800px at 50% -10%, rgba(26, 42, 94, 0.95) 0%, rgba(11, 16, 32, 0.98) 55%, rgba(58, 11, 21, 0.92) 100%);
+  background-attachment: fixed;
+}
+
+body.bg-green-light {
+  background-color: #061a14;
+  background-image: radial-gradient(1100px 780px at 50% -10%, rgba(140, 255, 214, 0.55) 0%, rgba(14, 48, 40, 0.92) 45%, rgba(6, 26, 20, 0.98) 100%);
+  background-attachment: fixed;
+}
+
+body.bg-violet {
+  background-color: #0c0a1a;
+  background-image: radial-gradient(1100px 780px at 50% -10%, rgba(196, 140, 255, 0.55) 0%, rgba(38, 22, 66, 0.92) 45%, rgba(12, 10, 26, 0.98) 100%);
+  background-attachment: fixed;
 }
 
 h2 {
   font-weight: 500;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #F0F0F0;
 }
 
@@ -102,7 +78,10 @@ p {
   color: #b5b5b5;
 }
 
-article p, article ul, article ol, article blockquote {
+article p,
+article ul,
+article ol,
+article blockquote {
   color: #b5b5b5;
 }
 
@@ -112,7 +91,7 @@ hr {
 
 /* 1.1 Preloader */
 #preloader {
-  background-color: #1e2326;
+  background-color: #0b1020;
 }
 
 blockquote footer {
@@ -128,39 +107,39 @@ blockquote footer {
   background-color: initial;
 }
 
-<<<<<<< HEAD
 /*=================
     2. HELPER
-=======
-/*=================
-    2. HELPER
->>>>>>> feature/cli-photo-update
 ==================*/
-section .section-title h2.rect_heading, div.section .section-title h2.rect_heading {
+section .section-title h2.rect_heading,
+div.section .section-title h2.rect_heading {
   border: 1px solid #31383d;
 }
 
-section .section-title h2.text_background span.heading_background, div.section .section-title h2.text_background span.heading_background {
+section .section-title h2.text_background span.heading_background,
+div.section .section-title h2.text_background span.heading_background {
   color: transparent;
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.05);
 }
 
-section .section-title p, div.section .section-title p {
+section .section-title p,
+div.section .section-title p {
   color: #F0F0F0;
   font-weight: 300;
 }
 
-section.backgound-section, div.section.backgound-section {
+section.backgound-section,
+div.section.backgound-section {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
   -webkit-box-shadow: inset 0 0 0 2000px rgba(30, 35, 38, 0.7);
-          box-shadow: inset 0 0 0 2000px rgba(30, 35, 38, 0.7);
+  box-shadow: inset 0 0 0 2000px rgba(30, 35, 38, 0.7);
   -webkit-appearance: none;
 }
 
-section.preload, div.section.preload {
+section.preload,
+div.section.preload {
   background-attachment: scroll;
 }
 
@@ -170,7 +149,7 @@ main section .form-group label {
 }
 
 main section .form-group.form-focused label {
-  background-color: #1e2326;
+  background-color: rgba(11, 16, 32, 0.96);
   opacity: 1;
 }
 
@@ -179,11 +158,11 @@ main section.background_gpattern {
 }
 
 main section:not(.backgound-section):not(.home):nth-child(odd) {
-  background-color: #252b2f;
+  background-color: rgba(20, 26, 46, 0.88);
 }
 
 main section:not(.backgound-section):not(.home):nth-child(odd) .form-group.form-focused label {
-  background-color: #252b2f;
+  background-color: rgba(20, 26, 46, 0.92);
 }
 
 .box-shadow {
@@ -226,13 +205,8 @@ a.hoveroff:hover {
   font-size: 1.2em;
 }
 
-<<<<<<< HEAD
 /*=================
     3. HEADER
-=======
-/*=================
-    3. HEADER
->>>>>>> feature/cli-photo-update
 ==================*/
 /* 3.1 General Header Style */
 header .site-logo a {
@@ -262,17 +236,12 @@ header.horizontal_header ul li a:after {
   color: #fff;
 }
 
-<<<<<<< HEAD
 /*====================
     4. HOME SECTION
-=======
-/*====================
-    4. HOME SECTION
->>>>>>> feature/cli-photo-update
 =====================*/
 section.home {
   -webkit-box-shadow: inset 0px -10px 10px 0px rgba(30, 35, 38, 0.75);
-          box-shadow: inset 0px -10px 10px 0px rgba(30, 35, 38, 0.75);
+  box-shadow: inset 0px -10px 10px 0px rgba(30, 35, 38, 0.75);
   /* 4.1 Parallax Element Colors */
 }
 
@@ -282,22 +251,22 @@ section.home h1 {
 
 section.home .background-parallax .element.red {
   -webkit-box-shadow: 0px 0px 190px 260px rgba(229, 65, 68, 0.1);
-          box-shadow: 0px 0px 190px 260px rgba(229, 65, 68, 0.1);
+  box-shadow: 0px 0px 190px 260px rgba(229, 65, 68, 0.1);
 }
 
 section.home .background-parallax .element.blue {
   -webkit-box-shadow: 0px 0px 160px 200px rgba(26, 123, 183, 0.1);
-          box-shadow: 0px 0px 160px 200px rgba(26, 123, 183, 0.1);
+  box-shadow: 0px 0px 160px 200px rgba(26, 123, 183, 0.1);
 }
 
 section.home .background-parallax .element.green {
   -webkit-box-shadow: 0px 0px 145px 220px rgba(28, 186, 90, 0.1);
-          box-shadow: 0px 0px 145px 220px rgba(28, 186, 90, 0.1);
+  box-shadow: 0px 0px 145px 220px rgba(28, 186, 90, 0.1);
 }
 
 section.home .background-parallax .element.orange {
   -webkit-box-shadow: 0px 0px 165px 210px rgba(240, 127, 129, 0.1);
-          box-shadow: 0px 0px 165px 210px rgba(240, 127, 129, 0.1);
+  box-shadow: 0px 0px 165px 210px rgba(240, 127, 129, 0.1);
 }
 
 h1 {
@@ -324,13 +293,8 @@ span.welcome_text {
   background-color: #F0F0F0;
 }
 
-<<<<<<< HEAD
 /*====================
     5. ABOUT SECTION
-=======
-/*====================
-    5. ABOUT SECTION
->>>>>>> feature/cli-photo-update
 =====================*/
 section.about h3 {
   font-weight: 500;
@@ -344,13 +308,8 @@ section.about .about-info span.desc {
   color: #F0F0F0;
 }
 
-<<<<<<< HEAD
 /*=======================
     6. SERVICE SECTION
-=======
-/*=======================
-    6. SERVICE SECTION
->>>>>>> feature/cli-photo-update
 ========================*/
 .service-single {
   background-color: #1e2326;
@@ -361,13 +320,8 @@ section.about .about-info span.desc {
   color: #F0F0F0;
 }
 
-<<<<<<< HEAD
 /*=======================
     7. PORTFOLIO SECTION
-=======
-/*=======================
-    7. PORTFOLIO SECTION
->>>>>>> feature/cli-photo-update
 ========================*/
 .portfolio-item .portfolio-single:hover {
   color: #F0F0F0;
@@ -404,13 +358,8 @@ section.about .about-info span.desc {
   color: #fff;
 }
 
-<<<<<<< HEAD
 /*=======================
     8. RESUME SECTION
-=======
-/*=======================
-    8. RESUME SECTION
->>>>>>> feature/cli-photo-update
 ========================*/
 .resume-title {
   font-weight: 500;
@@ -460,13 +409,8 @@ section.about .about-info span.desc {
   font-weight: 500;
 }
 
-<<<<<<< HEAD
 /*===========================
     9. TESTIMONIAL SECTION
-=======
-/*===========================
-    9. TESTIMONIAL SECTION
->>>>>>> feature/cli-photo-update
 ============================*/
 .testimonial-box {
   border: 2px solid #1e2326;
@@ -480,13 +424,8 @@ section.about .about-info span.desc {
   border-radius: 50%;
 }
 
-<<<<<<< HEAD
 /*=======================
     10. BLOG SECTION
-=======
-/*=======================
-    10. BLOG SECTION
->>>>>>> feature/cli-photo-update
 ========================*/
 .news-item {
   background-color: #1e2326;
@@ -507,13 +446,8 @@ section.about .about-info span.desc {
   color: #F0F0F0;
 }
 
-<<<<<<< HEAD
 /*=======================
     11. CONTACT SECTION
-=======
-/*=======================
-    11. CONTACT SECTION
->>>>>>> feature/cli-photo-update
 ========================*/
 .contact-details h5 {
   font-weight: 500;
@@ -526,7 +460,7 @@ section.about .about-info span.desc {
 
 .form-control {
   -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
   border: 1px solid #31383d;
   border-radius: 0px;
   background-color: transparent;
@@ -558,13 +492,8 @@ section.about .about-info span.desc {
   color: #AAAAAA;
 }
 
-<<<<<<< HEAD
 /*=======================
     12. FOOTER SECTION
-=======
-/*=======================
-    12. FOOTER SECTION
->>>>>>> feature/cli-photo-update
 ========================*/
 footer.horizontal-footer {
   background-color: #1e2326;
@@ -580,37 +509,24 @@ footer.horizontal-footer .copyright-text {
   font-weight: 300;
 }
 
-<<<<<<< HEAD
 /*==========================
     13. FACTS SECTION
-=======
-/*==========================
-    13. FACTS SECTION
->>>>>>> feature/cli-photo-update
 ===========================*/
-section.facts .fact-single, div.section.facts .fact-single {
+section.facts .fact-single,
+div.section.facts .fact-single {
   color: #F0F0F0;
 }
 
-<<<<<<< HEAD
 /*==========================
     14. PROJECT SECTION
-=======
-/*==========================
-    14. PROJECT SECTION
->>>>>>> feature/cli-photo-update
 ===========================*/
-section.project .box, div.section.project .box {
+section.project .box,
+div.section.project .box {
   background-color: #1e2326;
 }
 
-<<<<<<< HEAD
 /*==========================
     15. VIDEO SECTION
-=======
-/*==========================
-    15. VIDEO SECTION
->>>>>>> feature/cli-photo-update
 ===========================*/
 section.about_movie {
   background-size: cover;
@@ -628,6 +544,7 @@ section.about_movie {
 
 .btn-video-play:hover {
   -webkit-box-shadow: 0px 0px 0px 8px rgba(250, 250, 250, 0.2);
-          box-shadow: 0px 0px 0px 8px rgba(250, 250, 250, 0.2);
+  box-shadow: 0px 0px 0px 8px rgba(250, 250, 250, 0.2);
 }
+
 /*# sourceMappingURL=dark.theme.css.map */

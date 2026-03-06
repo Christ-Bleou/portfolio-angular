@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-//---------------------------------------------------------------------------------------
-// Template Name      :  RectCV - Personal Bootstrap 4 HTML Template                      |
+<<<<<<< HEAD //---------------------------------------------------------------------------------------
+// Template Name      :  BléouCV - Personal Bootstrap 4 HTML Template                      |
 // Author             :  Narek Sukiasyan                                                  |
 // Version            :  1.1.0                                                            |
 // Created            :  April 2020                                                       |
@@ -47,13 +46,20 @@ Table of Content
 body {
     background-color: $primary-color;
 }
+
 h2 {
     font-weight: 500;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: $text-color;
 }
+
 a {
     color: $text-color;
 }
@@ -64,7 +70,11 @@ p {
 
 
 article {
-    p, ul, ol, blockquote{
+
+    p,
+    ul,
+    ol,
+    blockquote {
         color: $text-color-second;
     }
 }
@@ -95,7 +105,7 @@ blockquote {
 
 /* 1.2 Form Control */
 
-.form-control:disabled, 
+.form-control:disabled,
 .form-control.disabled,
 .form-control[readonly] {
     opacity: .5;
@@ -107,7 +117,8 @@ blockquote {
     2. HELPER
 ==================*/
 
-section, div.section{
+section,
+div.section {
     .section-title {
 
         h2.rect_heading {
@@ -115,14 +126,13 @@ section, div.section{
         }
 
         h2.text_background {
-            span.heading_background
-            {
+            span.heading_background {
                 color: transparent;
-                -webkit-text-stroke: 1px rgba( $text-color-light, $btsindex );
+                -webkit-text-stroke: 1px rgba($text-color-light, $btsindex );
             }
         }
 
-       
+
 
         p {
             color: $text-color;
@@ -136,8 +146,9 @@ section, div.section{
         background-repeat: no-repeat;
         background-position: center;
         box-shadow: inset 0 0 0 2000px $background-opacity;
-        -webkit-appearance: none; 
+        -webkit-appearance: none;
     }
+
     &.preload {
         background-attachment: scroll;
     }
@@ -152,19 +163,21 @@ main {
                 opacity: .6;
             }
         }
+
         .form-group.form-focused label {
             background-color: $primary-color;
             opacity: 1;
         }
     }
 
-    section.background_gpattern{
+    section.background_gpattern {
 
         background-image: url($background_pattern_url);
     }
-    
-    section:not(.backgound-section):not(.home):nth-child(odd){
+
+    section:not(.backgound-section):not(.home):nth-child(odd) {
         background-color: $secondary-color;
+
         .form-group.form-focused label {
             background-color: $secondary-color;
         }
@@ -176,8 +189,8 @@ main {
 
 .box-shadow {
     -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.01);
-    -moz-box-shadow:    0px 0px 8px 0px rgba(0, 0, 0, 0.01);
-    box-shadow:         0px 0px 8px 0px rgba(0, 0, 0, 0.01);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.01);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.01);
 }
 
 
@@ -194,11 +207,13 @@ main {
         }
     }
 }
+
 /* 2.2 Button Toggler */
 
 
 .button-toggler {
     background: transparent;
+
     span {
         background-color: $text-color;
     }
@@ -213,7 +228,7 @@ a.hoveroff {
 
 /* 2.3 OWL Slider */
 
-.owl-nav{
+.owl-nav {
     button {
         span {
             font-weight: 700;
@@ -244,33 +259,35 @@ header {
 
 /* 3.2 Horizontal Header Style */
 header.horizontal_header {
-   
+
     .header-ins {
         background-color: $primary-color;
         padding: 17px 0px;
-    }    
+    }
 
     .header-ins.transparent_header {
         background-color: transparent;
     }
+
     .header-ins:not(.transparent_header).shadow-header {
         -webkit-box-shadow: 0px 1px 8px 3px rgba(0, 0, 0, 0.06);
-        -moz-box-shadow:    0px 1px 8px 3px rgba(0, 0, 0, 0.06);
-        box-shadow:         0px 1px 8px 3px rgba(0, 0, 0, 0.06);
+        -moz-box-shadow: 0px 1px 8px 3px rgba(0, 0, 0, 0.06);
+        box-shadow: 0px 1px 8px 3px rgba(0, 0, 0, 0.06);
     }
 
-    ul{
-        li{
-            a{
+    ul {
+        li {
+            a {
                 font-weight: 500;
+
                 &:after {
                     color: $white-color;
                 }
-            
+
             }
         }
     }
-    
+
 }
 
 
@@ -280,6 +297,7 @@ header.horizontal_header {
 
 section.home {
     box-shadow: $section-home-shadow;
+
     h1 {
         border: 1px solid $text-color;
     }
@@ -290,21 +308,22 @@ section.home {
         .element {
             &.red {
                 box-shadow: 0px 0px 190px 260px rgba(229, 65, 68, 0.1);
-                
+
             }
+
             &.blue {
                 box-shadow: 0px 0px 160px 200px rgba(26, 123, 183, 0.1);
-                
+
             }
 
             &.green {
                 box-shadow: 0px 0px 145px 220px rgba(28, 186, 90, 0.1);
-                
+
             }
 
             &.orange {
                 box-shadow: 0px 0px 165px 210px rgba(240, 127, 129, 0.1);
-                
+
             }
         }
     }
@@ -322,10 +341,11 @@ span.welcome_text {
 
 /* 4.2 Scroll Down Button */
 .scroll-down {
-    .scroll-title{
+    .scroll-title {
         font-weight: 500;
         font-size: 13px;
     }
+
     .scroll-mouse {
         border: 2px solid $text-color;
 
@@ -360,6 +380,7 @@ section.about {
 .service-single {
     background-color: $primary-color;
     border: 1px solid $border-color-light;
+
     h3 {
         color: $text-color;
     }
@@ -372,19 +393,23 @@ section.about {
 ========================*/
 
 .portfolio-item {
-    .portfolio-single:hover{
-        color: $text-color; 
+    .portfolio-single:hover {
+        color: $text-color;
     }
+
     .item-box {
         .item-details {
-            background-color: rgba(0,0,0,.65);
+            background-color: rgba(0, 0, 0, .65);
+
             .item-detail-rect {
                 border: 3px solid $white-color;
             }
+
             .item-detail-rect.r1 {
                 top: 3px;
                 left: 3px;
             }
+
             .item-detail-rect.r2 {
                 bottom: 3px;
                 right: 3px;
@@ -392,11 +417,13 @@ section.about {
 
             .item-details-ins {
                 color: $white-color;
+
                 h3 {
                     color: $white-color;
                     font-size: 1.5rem;
                 }
-                p{
+
+                p {
                     color: $white-color;
                 }
             }
@@ -416,6 +443,7 @@ section.about {
     font-weight: 500;
     color: $text-color;
 }
+
 .resume-list {
     li:before {
         border: 2px solid $border-color;
@@ -448,18 +476,21 @@ section.about {
     .progress {
         background-color: $secondary-color;
     }
+
     .skill-icon {
         color: $text-color;
     }
+
     .progresss-info span {
         font-weight: 400;
         color: $text-color;
     }
+
     .progresss-info span.progress-percent {
         font-weight: 500;
     }
 
-    
+
 }
 
 
@@ -472,7 +503,7 @@ section.about {
     border: 2px solid $primary-color;
     line-height: 23.5px;
     background-color: $primary-color;
-    
+
 
     .author_picture {
         background-size: cover;
@@ -487,6 +518,7 @@ section.about {
 .news-item {
     background-color: $primary-color;
     border: 1px solid $border-color-light;
+
     .news-content {
         .news-title {
             .blog-permalink {
@@ -494,13 +526,15 @@ section.about {
                     font-weight: 600;
                     color: $text-color;
                 }
-                
+
             }
         }
+
         .news-meta-single {
             font-weight: 300;
             color: $text-color;
         }
+
         .news-excerpt p {
             color: $text-color;
         }
@@ -511,11 +545,12 @@ section.about {
     11. CONTACT SECTION
 ========================*/
 
-.contact-details{
+.contact-details {
     h5 {
         font-weight: 500;
         color: $text-color;
     }
+
     p {
         color: $text-color;
     }
@@ -529,11 +564,13 @@ section.about {
     transition: all 0.5s;
     padding: .9em 1em;
     color: $text-color;
+
     &:focus {
-        background-color: transparent;  
+        background-color: transparent;
         border: 1px solid $border-color;
         color: $text-color;
     }
+
     &::placeholder {
         color: $placeholder-color;
     }
@@ -543,40 +580,43 @@ section.about {
 /*=======================
     12. FOOTER SECTION
 ========================*/
-   
+
 footer.horizontal-footer {
     &.shadow_footer {
         -webkit-box-shadow: 0px -1px 8px 3px rgba(0, 0, 0, 0.06);
-        -moz-box-shadow:    0px -1px 8px 3px rgba(0, 0, 0, 0.06);
-        box-shadow:         0px -1px 8px 3px rgba(0, 0, 0, 0.06);
+        -moz-box-shadow: 0px -1px 8px 3px rgba(0, 0, 0, 0.06);
+        box-shadow: 0px -1px 8px 3px rgba(0, 0, 0, 0.06);
     }
+
     background-color: $primary-color;
 
     .copyright-text {
         font-size: 14px;
         font-weight: 300;
     }
-    
+
 }
 
 
 /*==========================
     13. FACTS SECTION
-===========================*/  
+===========================*/
 
-section.facts, div.section.facts {
+section.facts,
+div.section.facts {
     .fact-single {
         color: $text-color;
-       
+
     }
 }
 
 /*==========================
     14. PROJECT SECTION
-===========================*/  
+===========================*/
 
 
-section.project, div.section.project {
+section.project,
+div.section.project {
     .box {
         background-color: $primary-color;
     }
@@ -585,7 +625,7 @@ section.project, div.section.project {
 
 /*==========================
     15. VIDEO SECTION
-===========================*/  
+===========================*/
 
 section.about_movie {
     background-size: cover;
@@ -606,9 +646,8 @@ section.about_movie {
 }
 
 
-=======
-//---------------------------------------------------------------------------------------
-// Template Name      :  RectCV - Personal Bootstrap 4 HTML Template                      |
+======= //---------------------------------------------------------------------------------------
+// Template Name      :  BléouCV - Personal Bootstrap 4 HTML Template                      |
 // Author             :  Narek Sukiasyan                                                  |
 // Version            :  1.1.0                                                            |
 // Created            :  April 2020                                                       |
@@ -655,13 +694,20 @@ Table of Content
 body {
     background-color: $primary-color;
 }
+
 h2 {
     font-weight: 500;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: $text-color;
 }
+
 a {
     color: $text-color;
 }
@@ -672,7 +718,11 @@ p {
 
 
 article {
-    p, ul, ol, blockquote{
+
+    p,
+    ul,
+    ol,
+    blockquote {
         color: $text-color-second;
     }
 }
@@ -703,7 +753,7 @@ blockquote {
 
 /* 1.2 Form Control */
 
-.form-control:disabled, 
+.form-control:disabled,
 .form-control.disabled,
 .form-control[readonly] {
     opacity: .5;
@@ -715,7 +765,8 @@ blockquote {
     2. HELPER
 ==================*/
 
-section, div.section{
+section,
+div.section {
     .section-title {
 
         h2.rect_heading {
@@ -723,14 +774,13 @@ section, div.section{
         }
 
         h2.text_background {
-            span.heading_background
-            {
+            span.heading_background {
                 color: transparent;
-                -webkit-text-stroke: 1px rgba( $text-color-light, $btsindex );
+                -webkit-text-stroke: 1px rgba($text-color-light, $btsindex );
             }
         }
 
-       
+
 
         p {
             color: $text-color;
@@ -744,8 +794,9 @@ section, div.section{
         background-repeat: no-repeat;
         background-position: center;
         box-shadow: inset 0 0 0 2000px $background-opacity;
-        -webkit-appearance: none; 
+        -webkit-appearance: none;
     }
+
     &.preload {
         background-attachment: scroll;
     }
@@ -760,19 +811,21 @@ main {
                 opacity: .6;
             }
         }
+
         .form-group.form-focused label {
             background-color: $primary-color;
             opacity: 1;
         }
     }
 
-    section.background_gpattern{
+    section.background_gpattern {
 
         background-image: url($background_pattern_url);
     }
-    
-    section:not(.backgound-section):not(.home):nth-child(odd){
+
+    section:not(.backgound-section):not(.home):nth-child(odd) {
         background-color: $secondary-color;
+
         .form-group.form-focused label {
             background-color: $secondary-color;
         }
@@ -784,8 +837,8 @@ main {
 
 .box-shadow {
     -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.01);
-    -moz-box-shadow:    0px 0px 8px 0px rgba(0, 0, 0, 0.01);
-    box-shadow:         0px 0px 8px 0px rgba(0, 0, 0, 0.01);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.01);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.01);
 }
 
 
@@ -802,11 +855,13 @@ main {
         }
     }
 }
+
 /* 2.2 Button Toggler */
 
 
 .button-toggler {
     background: transparent;
+
     span {
         background-color: $text-color;
     }
@@ -821,7 +876,7 @@ a.hoveroff {
 
 /* 2.3 OWL Slider */
 
-.owl-nav{
+.owl-nav {
     button {
         span {
             font-weight: 700;
@@ -852,33 +907,35 @@ header {
 
 /* 3.2 Horizontal Header Style */
 header.horizontal_header {
-   
+
     .header-ins {
         background-color: $primary-color;
         padding: 17px 0px;
-    }    
+    }
 
     .header-ins.transparent_header {
         background-color: transparent;
     }
+
     .header-ins:not(.transparent_header).shadow-header {
         -webkit-box-shadow: 0px 1px 8px 3px rgba(0, 0, 0, 0.06);
-        -moz-box-shadow:    0px 1px 8px 3px rgba(0, 0, 0, 0.06);
-        box-shadow:         0px 1px 8px 3px rgba(0, 0, 0, 0.06);
+        -moz-box-shadow: 0px 1px 8px 3px rgba(0, 0, 0, 0.06);
+        box-shadow: 0px 1px 8px 3px rgba(0, 0, 0, 0.06);
     }
 
-    ul{
-        li{
-            a{
+    ul {
+        li {
+            a {
                 font-weight: 500;
+
                 &:after {
                     color: $white-color;
                 }
-            
+
             }
         }
     }
-    
+
 }
 
 
@@ -888,6 +945,7 @@ header.horizontal_header {
 
 section.home {
     box-shadow: $section-home-shadow;
+
     h1 {
         border: 1px solid $text-color;
     }
@@ -898,21 +956,22 @@ section.home {
         .element {
             &.red {
                 box-shadow: 0px 0px 190px 260px rgba(229, 65, 68, 0.1);
-                
+
             }
+
             &.blue {
                 box-shadow: 0px 0px 160px 200px rgba(26, 123, 183, 0.1);
-                
+
             }
 
             &.green {
                 box-shadow: 0px 0px 145px 220px rgba(28, 186, 90, 0.1);
-                
+
             }
 
             &.orange {
                 box-shadow: 0px 0px 165px 210px rgba(240, 127, 129, 0.1);
-                
+
             }
         }
     }
@@ -930,10 +989,11 @@ span.welcome_text {
 
 /* 4.2 Scroll Down Button */
 .scroll-down {
-    .scroll-title{
+    .scroll-title {
         font-weight: 500;
         font-size: 13px;
     }
+
     .scroll-mouse {
         border: 2px solid $text-color;
 
@@ -968,6 +1028,7 @@ section.about {
 .service-single {
     background-color: $primary-color;
     border: 1px solid $border-color-light;
+
     h3 {
         color: $text-color;
     }
@@ -980,19 +1041,23 @@ section.about {
 ========================*/
 
 .portfolio-item {
-    .portfolio-single:hover{
-        color: $text-color; 
+    .portfolio-single:hover {
+        color: $text-color;
     }
+
     .item-box {
         .item-details {
-            background-color: rgba(0,0,0,.65);
+            background-color: rgba(0, 0, 0, .65);
+
             .item-detail-rect {
                 border: 3px solid $white-color;
             }
+
             .item-detail-rect.r1 {
                 top: 3px;
                 left: 3px;
             }
+
             .item-detail-rect.r2 {
                 bottom: 3px;
                 right: 3px;
@@ -1000,11 +1065,13 @@ section.about {
 
             .item-details-ins {
                 color: $white-color;
+
                 h3 {
                     color: $white-color;
                     font-size: 1.5rem;
                 }
-                p{
+
+                p {
                     color: $white-color;
                 }
             }
@@ -1024,6 +1091,7 @@ section.about {
     font-weight: 500;
     color: $text-color;
 }
+
 .resume-list {
     li:before {
         border: 2px solid $border-color;
@@ -1056,18 +1124,21 @@ section.about {
     .progress {
         background-color: $secondary-color;
     }
+
     .skill-icon {
         color: $text-color;
     }
+
     .progresss-info span {
         font-weight: 400;
         color: $text-color;
     }
+
     .progresss-info span.progress-percent {
         font-weight: 500;
     }
 
-    
+
 }
 
 
@@ -1080,7 +1151,7 @@ section.about {
     border: 2px solid $primary-color;
     line-height: 23.5px;
     background-color: $primary-color;
-    
+
 
     .author_picture {
         background-size: cover;
@@ -1095,6 +1166,7 @@ section.about {
 .news-item {
     background-color: $primary-color;
     border: 1px solid $border-color-light;
+
     .news-content {
         .news-title {
             .blog-permalink {
@@ -1102,13 +1174,15 @@ section.about {
                     font-weight: 600;
                     color: $text-color;
                 }
-                
+
             }
         }
+
         .news-meta-single {
             font-weight: 300;
             color: $text-color;
         }
+
         .news-excerpt p {
             color: $text-color;
         }
@@ -1119,11 +1193,12 @@ section.about {
     11. CONTACT SECTION
 ========================*/
 
-.contact-details{
+.contact-details {
     h5 {
         font-weight: 500;
         color: $text-color;
     }
+
     p {
         color: $text-color;
     }
@@ -1137,11 +1212,13 @@ section.about {
     transition: all 0.5s;
     padding: .9em 1em;
     color: $text-color;
+
     &:focus {
-        background-color: transparent;  
+        background-color: transparent;
         border: 1px solid $border-color;
         color: $text-color;
     }
+
     &::placeholder {
         color: $placeholder-color;
     }
@@ -1151,40 +1228,43 @@ section.about {
 /*=======================
     12. FOOTER SECTION
 ========================*/
-   
+
 footer.horizontal-footer {
     &.shadow_footer {
         -webkit-box-shadow: 0px -1px 8px 3px rgba(0, 0, 0, 0.06);
-        -moz-box-shadow:    0px -1px 8px 3px rgba(0, 0, 0, 0.06);
-        box-shadow:         0px -1px 8px 3px rgba(0, 0, 0, 0.06);
+        -moz-box-shadow: 0px -1px 8px 3px rgba(0, 0, 0, 0.06);
+        box-shadow: 0px -1px 8px 3px rgba(0, 0, 0, 0.06);
     }
+
     background-color: $primary-color;
 
     .copyright-text {
         font-size: 14px;
         font-weight: 300;
     }
-    
+
 }
 
 
 /*==========================
     13. FACTS SECTION
-===========================*/  
+===========================*/
 
-section.facts, div.section.facts {
+section.facts,
+div.section.facts {
     .fact-single {
         color: $text-color;
-       
+
     }
 }
 
 /*==========================
     14. PROJECT SECTION
-===========================*/  
+===========================*/
 
 
-section.project, div.section.project {
+section.project,
+div.section.project {
     .box {
         background-color: $primary-color;
     }
@@ -1193,7 +1273,7 @@ section.project, div.section.project {
 
 /*==========================
     15. VIDEO SECTION
-===========================*/  
+===========================*/
 
 section.about_movie {
     background-size: cover;
@@ -1214,4 +1294,4 @@ section.about_movie {
 }
 
 
->>>>>>> feature/cli-photo-update
+>>>>>>>feature/cli-photo-update

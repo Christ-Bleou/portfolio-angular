@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 /*---------------------------------------------------------------------------------------
-* Template Name      :  RectCV - Personal Bootstrap 4 HTML Template                      |
+* Template Name      :  BléouCV - Personal Bootstrap 4 HTML Template                      |
 * Author             :  Narek Sukiasyan                                                  |
 * Version            :  1.1.0                                                            |
 * Created            :  April 2020                                                       |
@@ -34,43 +33,6 @@ Table of Content
 ******************/
 /*=================
     1. SETTINGS
-=======
-/*---------------------------------------------------------------------------------------
-* Template Name      :  RectCV - Personal Bootstrap 4 HTML Template                      |
-* Author             :  Narek Sukiasyan                                                  |
-* Version            :  1.1.0                                                            |
-* Created            :  April 2020                                                       |
-* Updated            :  February 2021                                                    |
-* File Description   :  Color Scheme css file of the template                            |
-*----------------------------------------------------------------------------------------
-*/
-/******************
-Table of Content
-
-    1. SETTINGS
-        1.1 Preloader
-        1.2 Bootstrap Settings
-        1.3 Buttons
-    2. HELPERS
-        2.1 OWL Slider
-    3. HEADER
-        3.1 General Header Style
-        3.2 Horizontal Header Style
-    4. HOME SECTION
-    5. ABOUT SECTION
-    6. SERVICE SECTION
-    7. RESUME SECTION
-    8. BLOG SECTION
-    9. CONTACT SECTION
-    10. FACTS SECTION
-    11. VIDEO SECTION
-    12. TESTIMONIAL SECTION
-        
-
-******************/
-/*=================
-    1. SETTINGS
->>>>>>> feature/cli-photo-update
 ==================*/
 a:hover {
   color: #1cba5a;
@@ -79,7 +41,7 @@ a:hover {
 /* 1.1 Preloader  */
 #preloader .loader {
   -webkit-animation: loader 1s linear infinite;
-          animation: loader 1s linear infinite;
+  animation: loader 1s linear infinite;
   background: rgba(28, 186, 90, 0.8);
 }
 
@@ -87,8 +49,9 @@ a:hover {
   0% {
     background: rgba(28, 186, 90, 0.8);
     -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
   }
+
   100% {
     background: rgba(28, 186, 90, 0);
   }
@@ -98,8 +61,9 @@ a:hover {
   0% {
     background: rgba(28, 186, 90, 0.8);
     -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
   }
+
   100% {
     background: rgba(28, 186, 90, 0);
   }
@@ -135,17 +99,18 @@ blockquote {
   border-color: #19974b;
 }
 
-.btn-primary.focus, .btn-primary:focus {
+.btn-primary.focus,
+.btn-primary:focus {
   color: #fff;
   background-color: #1cba5a;
   border-color: #1cba5a;
   -webkit-box-shadow: 0 0 0 0.2rem rgba(28, 186, 90, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(28, 186, 90, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(28, 186, 90, 0.5);
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus {
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   background-color: #19974b;
   color: #fff;
   border-color: #19974b;
@@ -153,19 +118,21 @@ blockquote {
 
 .btn-primary:not(:disabled):not(.disabled):active {
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   background-color: #19974b;
   color: #fff;
   border-color: #19974b;
 }
 
-.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active {
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active {
   background-color: #238013;
   color: #fff;
   border-color: #238013;
 }
 
-.btn-primary.disabled, .btn-primary:disabled {
+.btn-primary.disabled,
+.btn-primary:disabled {
   background-color: #19974b;
   color: #fff;
   border-color: #19974b;
@@ -183,23 +150,27 @@ blockquote {
   color: #fff;
 }
 
-.btn-outline-primary:not(:disabled):not(.disabled).active:focus, .btn-outline-primary:not(:disabled):not(.disabled):active:focus {
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus {
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
-.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active {
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.btn-outline-primary:not(:disabled):not(.disabled):active {
   border-color: #238013;
   background-color: #238013;
   color: #1cba5a;
 }
 
-.btn-outline-primary.focus, .btn-outline-primary:focus {
+.btn-outline-primary.focus,
+.btn-outline-primary:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(28, 186, 90, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(28, 186, 90, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(28, 186, 90, 0.5);
 }
 
-.btn-outline-primary.disabled, .btn-outline-primary:disabled {
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
   color: #1cba5a;
 }
 
@@ -207,30 +178,33 @@ blockquote {
   color: rgba(0, 0, 0, 0);
 }
 
-.btn-loading:hover, .btn-loading:active, .btn-loading:focus {
+.btn-loading:hover,
+.btn-loading:active,
+.btn-loading:focus {
   color: rgba(0, 0, 0, 0);
 }
 
 .btn-loading:before {
   border: 6px solid rgba(255, 255, 255, 0.5);
   -webkit-animation: btn-loader 1s linear infinite;
-          animation: btn-loader 1s linear infinite;
+  animation: btn-loader 1s linear infinite;
   -webkit-transform: translate(-50%);
-          transform: translate(-50%);
+  transform: translate(-50%);
   -webkit-transform-origin: 0%;
-          transform-origin: 0%;
+  transform-origin: 0%;
 }
 
 @-webkit-keyframes btn-loader {
   0% {
     border-color: rgba(255, 255, 255, 0.9);
     -webkit-transform: scale(0) translate(-50%);
-            transform: scale(0) translate(-50%);
+    transform: scale(0) translate(-50%);
   }
+
   100% {
     border-color: rgba(255, 255, 255, 0);
     -webkit-transform: scale(1) translate(-50%);
-            transform: scale(1) translate(-50%);
+    transform: scale(1) translate(-50%);
   }
 }
 
@@ -238,12 +212,13 @@ blockquote {
   0% {
     border-color: rgba(255, 255, 255, 0.9);
     -webkit-transform: scale(0) translate(-50%);
-            transform: scale(0) translate(-50%);
+    transform: scale(0) translate(-50%);
   }
+
   100% {
     border-color: rgba(255, 255, 255, 0);
     -webkit-transform: scale(1) translate(-50%);
-            transform: scale(1) translate(-50%);
+    transform: scale(1) translate(-50%);
   }
 }
 
@@ -251,13 +226,8 @@ mark {
   background: rgba(28, 186, 90, 0.8);
 }
 
-<<<<<<< HEAD
 /*=================
     2. HELPERS
-=======
-/*=================
-    2. HELPERS
->>>>>>> feature/cli-photo-update
 ==================*/
 section .section-title h2.rect_heading:before {
   background-color: #1cba5a;
@@ -280,13 +250,8 @@ section .section-title h2.rect_heading:before {
   background-color: #1cba5a;
 }
 
-<<<<<<< HEAD
 /*=================
     3. HEADER
-=======
-/*=================
-    3. HEADER
->>>>>>> feature/cli-photo-update
 ==================*/
 /* 3.1 General Header Style */
 header .site-logo a span {
@@ -302,13 +267,8 @@ ul li a.active {
   color: #1cba5a;
 }
 
-<<<<<<< HEAD
 /*====================
     4. HOME SECTION
-=======
-/*====================
-    4. HOME SECTION
->>>>>>> feature/cli-photo-update
 =====================*/
 section.home h1:before {
   background-color: #1cba5a;
@@ -318,37 +278,22 @@ h1 span {
   color: #1cba5a;
 }
 
-<<<<<<< HEAD
 /*====================
     5. ABOUT SECTION
-=======
-/*====================
-    5. ABOUT SECTION
->>>>>>> feature/cli-photo-update
 =====================*/
 section.about .about-info i {
   color: #1cba5a;
 }
 
-<<<<<<< HEAD
 /*=======================
     6. SERVICE SECTION
-=======
-/*=======================
-    6. SERVICE SECTION
->>>>>>> feature/cli-photo-update
 ========================*/
 .service-single .service-icon {
   color: #1cba5a;
 }
 
-<<<<<<< HEAD
 /*=======================
     7. RESUME SECTION
-=======
-/*=======================
-    7. RESUME SECTION
->>>>>>> feature/cli-photo-update
 ========================*/
 .resume-list h4 {
   color: #1cba5a;
@@ -358,13 +303,8 @@ section.about .about-info i {
   background-color: #1cba5a;
 }
 
-<<<<<<< HEAD
 /*=======================
     8. BLOG SECTION
-=======
-/*=======================
-    8. BLOG SECTION
->>>>>>> feature/cli-photo-update
 ========================*/
 .news-item .news-content .news-title .blog-permalink:hover h3 {
   color: #1cba5a;
@@ -374,51 +314,33 @@ section.about .about-info i {
   color: #1cba5a;
 }
 
-<<<<<<< HEAD
 /*=======================
     9. CONTACT SECTION
-=======
-/*=======================
-    9. CONTACT SECTION
->>>>>>> feature/cli-photo-update
 ========================*/
 .contact-icon {
   color: #1cba5a;
 }
 
-<<<<<<< HEAD
 /*==========================
     10. FACTS SECTION
-=======
-/*==========================
-    10. FACTS SECTION
->>>>>>> feature/cli-photo-update
 ===========================*/
-section.facts .fact-single .fact-icon, div.section.facts .fact-single .fact-icon {
+section.facts .fact-single .fact-icon,
+div.section.facts .fact-single .fact-icon {
   color: #1cba5a;
 }
 
-<<<<<<< HEAD
 /*==========================
     11. VIDEO SECTION
-=======
-/*==========================
-    11. VIDEO SECTION
->>>>>>> feature/cli-photo-update
 ===========================*/
 .btn-video-play {
   color: #1cba5a;
 }
 
-<<<<<<< HEAD
 /*==========================
     12. TESTIMONIAL SECTION
-=======
-/*==========================
-    12. TESTIMONIAL SECTION
->>>>>>> feature/cli-photo-update
 ===========================*/
 .testimonial-box .testimonial_icon {
   color: #1cba5a;
 }
+
 /*# sourceMappingURL=green.css.map */
