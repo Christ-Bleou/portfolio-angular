@@ -28,4 +28,10 @@ import { ProfileService } from '../profile.service';
 export class Home {
   // Injection du service
   profileService = inject(ProfileService);
+
+  useAltPhoto = false;
+
+  togglePhoto(): void {
+    this.useAltPhoto = !this.useAltPhoto;
+  }
 }

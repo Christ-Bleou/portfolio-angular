@@ -19,7 +19,7 @@ export class Header implements OnInit {
     },
     {
       key: 'white',
-      label: 'Blanc',
+      label: 'Rouge',
       themeHref: './assets/css/light.theme.css',
       colorHref: './assets/css/default.css',
     },
@@ -37,6 +37,7 @@ export class Header implements OnInit {
     { key: 'default', label: 'Défaut', bodyClass: null },
     { key: 'greenLight', label: 'Vert clair', bodyClass: 'bg-green-light' },
     { key: 'violet', label: 'Violet', bodyClass: 'bg-violet' },
+    { key: 'yellow', label: 'Jaune', bodyClass: 'bg-yellow' },
   ] as const;
 
   private bgIndex = 0;
@@ -85,7 +86,7 @@ export class Header implements OnInit {
 
   private applyBackground(preset: (typeof this.backgroundPresets)[number]): void {
     const body = this.document.body;
-    body.classList.remove('bg-green-light', 'bg-violet');
+    body.classList.remove('bg-green-light', 'bg-violet', 'bg-yellow');
     if (preset.bodyClass) body.classList.add(preset.bodyClass);
   }
 

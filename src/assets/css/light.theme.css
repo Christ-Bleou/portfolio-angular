@@ -55,6 +55,12 @@ body.bg-violet {
   background-attachment: fixed;
 }
 
+body.bg-yellow {
+  background-color: #fffdf2;
+  background-image: radial-gradient(1100px 780px at 50% -10%, rgba(255, 255, 255, 0.9) 0%, rgba(255, 242, 190, 0.95) 40%, rgba(255, 230, 150, 0.95) 100%);
+  background-attachment: fixed;
+}
+
 h2 {
   font-weight: 500;
 }

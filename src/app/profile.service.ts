@@ -25,6 +25,7 @@ export interface UserConfig {
 
   // Photo
   photoPath: string;       // Nouveau
+  photoPathAlt?: string;
 }
 
 @Injectable({

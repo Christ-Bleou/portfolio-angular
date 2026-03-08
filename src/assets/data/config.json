@@ -15,5 +15,6 @@
   "happyClients": "100",
   "projectsDone": "40",
   "downloads": "500+",
-  "photoPath": "assets/img/profile_pic.jpg"
+  "photoPath": "assets/img/profile_pic.jpg",
+  "photoPathAlt": "assets/img/profile_pic.png"
 }

@@ -7,10 +7,11 @@
       <div class="col-md-12 text-center">
 
         <div class="profile-img-container mb-4" *ngIf="info.photoPath">
-          <img [src]="info.photoPath" 
+          <img [src]="useAltPhoto && info.photoPathAlt ? info.photoPathAlt : info.photoPath"
                alt="Photo de profil" 
                class="img-fluid"
-               style="width: 220px; height: 220px; object-fit: cover; border-radius: 50%; border: 6px solid rgba(255,255,255,0.2); box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+               style="width: 220px; height: 220px; object-fit: cover; border-radius: 50%; border: 6px solid rgba(255,255,255,0.2); box-shadow: 0 10px 30px rgba(0,0,0,0.3);"
+               (click)="togglePhoto()">
         </div>
 
         <h1>Bonjour, je suis <span class="accent">{{ info.firstName }} {{ info.lastName }}</span></h1>
